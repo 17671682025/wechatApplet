@@ -1,14 +1,33 @@
 {
-  "pages":[
-    "pages/index/index",
-    "pages/logs/logs"
+  "pages": [
+    "pages/tabBar/component",
+    "pages/component/cover-image",
+    "pages/tabBar/api"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [
+      {
+        "text": "组件",
+        "pagePath": "pages/tabBar/component",
+        "iconPath": "resource/images/icon_component_gray.png",
+        "selectedIconPath": "resource/images/icon_component_blue.png"
+      },
+      {
+        "text": "API",
+        "pagePath": "pages/tabBar/api",
+        "iconPath": "resource/images/icon_api_black.png",
+        "selectedIconPath": "resource/images/icon_api_blue.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#00f"
+  }
 }
