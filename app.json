@@ -1,13 +1,15 @@
 {
   "pages": [
     "pages/tabBar/component",
-    "pages/component/cover-image",
-    "pages/tabBar/api"
+    "pages/tabBar/extendComponent",
+    "pages/component/viewContainer/cover-image",
+    "pages/tabBar/interface",
+    "pages/tabBar/cloudDevelop"
   ],
   "window": {
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "",
     "navigationBarTextStyle": "black"
   },
   "style": "v2",
@@ -18,16 +20,28 @@
         "text": "组件",
         "pagePath": "pages/tabBar/component",
         "iconPath": "resource/images/icon_component_gray.png",
-        "selectedIconPath": "resource/images/icon_component_blue.png"
+        "selectedIconPath": "resource/images/icon_component_green.png"
       },
       {
-        "text": "API",
-        "pagePath": "pages/tabBar/api",
-        "iconPath": "resource/images/icon_api_black.png",
-        "selectedIconPath": "resource/images/icon_api_blue.png"
+        "text": "扩展组件",
+        "pagePath": "pages/tabBar/extendComponent",
+        "iconPath": "resource/images/icon_extendComponent_gray.png",
+        "selectedIconPath": "resource/images/icon_extendComponent_green.png"
+      },
+      {
+        "text": "接口",
+        "pagePath": "pages/tabBar/interface",
+        "iconPath": "resource/images/icon_interface_gray.png",
+        "selectedIconPath": "resource/images/icon_interface_green.png"
+      },
+      {
+        "text": "云开发",
+        "pagePath": "pages/tabBar/cloudDevelop",
+        "iconPath": "resource/images/icon_cloudDevelop_gray.png",
+        "selectedIconPath": "resource/images/icon_cloudDevelop_green.png"
       }
     ],
-    "color": "#000",
-    "selectedColor": "#00f"
+    "color": "#707070",
+    "selectedColor": "#1afa29"
   }
 }
