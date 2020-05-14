@@ -18,27 +18,27 @@
     "list": [
       {
         "text": "组件",
-        "pagePath": "pages/tabBar/component",
-        "iconPath": "resource/images/icon_component_gray.png",
-        "selectedIconPath": "resource/images/icon_component_green.png"
+        "pagePath": "pages/tabBar/component/component",
+        "iconPath": "base/images/icon_component_gray.png",
+        "selectedIconPath": "base/images/icon_component_green.png"
       },
       {
         "text": "扩展组件",
-        "pagePath": "pages/tabBar/extendComponent",
-        "iconPath": "resource/images/icon_extendComponent_gray.png",
-        "selectedIconPath": "resource/images/icon_extendComponent_green.png"
+        "pagePath": "pages/tabBar/extendComponent/extendComponent",
+        "iconPath": "base/images/icon_extendComponent_gray.png",
+        "selectedIconPath": "base/images/icon_extendComponent_green.png"
       },
       {
         "text": "接口",
-        "pagePath": "pages/tabBar/interface",
-        "iconPath": "resource/images/icon_interface_gray.png",
-        "selectedIconPath": "resource/images/icon_interface_green.png"
+        "pagePath": "pages/tabBar/interface/interface",
+        "iconPath": "base/images/icon_interface_gray.png",
+        "selectedIconPath": "base/images/icon_interface_green.png"
       },
       {
         "text": "云开发",
-        "pagePath": "pages/tabBar/cloudDevelop",
-        "iconPath": "resource/images/icon_cloudDevelop_gray.png",
-        "selectedIconPath": "resource/images/icon_cloudDevelop_green.png"
+        "pagePath": "pages/tabBar/cloudDevelop/cloudDevelop",
+        "iconPath": "base/images/icon_cloudDevelop_gray.png",
+        "selectedIconPath": "base/images/icon_cloudDevelop_green.png"
       }
     ],
     "color": "#707070",
