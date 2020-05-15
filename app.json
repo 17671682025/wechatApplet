@@ -1,10 +1,10 @@
 {
   "pages": [
-    "pages/tabBar/component",
-    "pages/tabBar/extendComponent",
+    "pages/tabBar/component/component",
+    "pages/tabBar/extendComponent/extendComponent",
     "pages/component/viewContainer/cover-image",
-    "pages/tabBar/interface",
-    "pages/tabBar/cloudDevelop"
+    "pages/tabBar/interface/interface",
+    "pages/tabBar/cloudDevelop/cloudDevelop"
   ],
   "window": {
     "backgroundTextStyle": "light",

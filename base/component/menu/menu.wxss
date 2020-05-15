@@ -323,3 +323,19 @@ page {
 .reverseFlexWrap {
   flex-wrap: wrap-reverse;
 }
+.wrap {
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 10rpx;
+}
+.menuWrap {
+  width: 100%;
+  min-height: 88rpx;
+  padding-left: 35rpx;
+  padding-right: 35rpx;
+  box-sizing: border-box;
+}
+.menuIcon {
+  width: 50rpx;
+  height: 50rpx;
+}

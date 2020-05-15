@@ -1,0 +1,11 @@
+<!--base/component/menu.wxml-->
+<view class="wrap columnStartS">
+  <!-- cover -->
+  <view onclick="" class="menuWrap rowSbC">
+    <text class="mainTitleText">coverText</text>
+    <text class="mainTitleText">coverIcon</text>
+    <!-- <image class="menuIcon" src="" mode="aspectFit" lazy-load="true" binderror="" bindload="" /> -->
+  </view>
+  <!-- list -->
+
+</view>

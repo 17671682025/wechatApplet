@@ -1,7 +1,9 @@
 {
-  "usingComponents": {},
-    "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "官方组件库",
-    "navigationBarTextStyle": "black"
+  "usingComponents": {
+    "menu": "/base/component/menu/menu"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "官方组件库",
+  "navigationBarTextStyle": "black"
 }

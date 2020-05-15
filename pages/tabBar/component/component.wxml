@@ -1,7 +1,25 @@
-<view class='container p20  columnStartC'>
-		<view class="headerBox">
-				<text class="alignCenter">以下将展示小程序官方组件能力，组件样式仅供参考，开发者可根据自身需求定义组件样式，具体参数详见</text>
-				<text>小程序开发文档</text>
-		</view>
-		
+<view class="container p20 columnStartC">
+  <view class="headerBox rowCenterC">
+    <text class="subText alignCenter">
+      以下将展示小程序官方组件能力，组件样式仅供参考，开发者可根据自身需求定义组件样式，具体参数详见<text class="outStandingText">小程序开发文档</text>
+    </text>
+  </view>
+  <view class="wrap flex1 columnStartC">
+    <view class="wrap menuWrap">
+      <menu></menu>
+    </view>
+    <view class="wrap menuWrap">
+      <menu></menu>
+    </view>
+    <view class="wrap menuWrap">
+      <menu></menu>
+    </view>
+    <view class="wrap menuWrap">
+      <menu></menu>
+    </view>
+    <view class="wrap menuWrap">
+      <menu></menu>
+    </view>
+  </view>
+
 </view>

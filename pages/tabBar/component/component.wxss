@@ -4,8 +4,15 @@
 }
 .headerBox {
   width: 80%;
+  margin-top: 50rpx;
+  margin-bottom: 50rpx;
 }
-.headerText {
-  font-size: 26rpx;
-  color: #fff;
+.alignCenter {
+  text-align: center;
+}
+.wrap {
+  width: 100%;
+}
+.menuWrap {
+  margin-bottom: 20rpx;
 }

@@ -1,11 +1,34 @@
 /**app.less**/
 @import './base/style/color.less';
-.page {
+@import './base/style/font.less';
+page {
+	height: 100%;
 	background-color: @background_page_common;
 }
 .container {
 	height: 100%;
 	box-sizing: border-box;
+}
+
+/* 文字样式 */
+.mainTitleText {
+	font-size: @text_main_font;
+	color: @text_main_title;
+}
+.titleText {
+	font-size: @text_title_font;
+	color: @text_title;
+}
+.subText {
+	font-size: @text_subtitle_font;
+	color: @text_subtitle;
+}
+.outStandingText {
+	font-size: @text_subtitle_font;
+	color: @text_outStanding_href;
+}
+.bold{
+	font-weight: 700;
 }
 /* flex布局部分 */
 .flex1 {
