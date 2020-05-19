@@ -1,3 +1,4 @@
+import navigate from '../../utils/navigation';
 Component({
 	// 组件数据监听器
 	observers: {},
@@ -53,6 +54,14 @@ Component({
 					isOpen: false,
 				});
 			}
+		},
+		// 跳转对应的页面
+		navigatePage(event) {
+			console.log('事件对象', event);
+			let routerPath = event.currentTarget.dataset['routerpath'] || '';
+			console.log('路由', routerPath);
+			// navigate.redirectTo({ url: routerPath });
+			wx.navigateTo({ url: routerPath });
 		},
 	},
 	lifetimes: {

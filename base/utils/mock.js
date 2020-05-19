@@ -26,12 +26,12 @@ function createDataSource (routerList) {
  */
 function createNavigateObj (value, routerName, routerPath, id, icon = '') {
   return {
-    routerName,
-    routerPath,
-    value,
-    unique: id,
-    icon
-  }
+		routerName,
+		routerPath: '/' + routerPath,
+		value,
+		unique: id,
+		icon,
+  };
 }
 
 // 官方组组件
