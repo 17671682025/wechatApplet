@@ -6,20 +6,14 @@
   </view>
   <view class="wrap flex1 columnStartC">
     <view class="wrap menuWrap">
-      <menu></menu>
-    </view>
-    <view class="wrap menuWrap">
-      <menu></menu>
-    </view>
-    <view class="wrap menuWrap">
-      <menu></menu>
-    </view>
-    <view class="wrap menuWrap">
-      <menu></menu>
-    </view>
-    <view class="wrap menuWrap">
-      <menu></menu>
+      <menu coverText="视图容器" coverIcon='右边图片' menuSource="{{viewContainerSource}}"></menu>
+      <menu coverText="基础内容" coverIcon='右边图片' menuSource="{{basicContentSource}}"></menu>
+      <menu coverText="表单组件" coverIcon='右边图片' menuSource="{{formComponentSource}}"></menu>
+      <menu coverText="导航" coverIcon='右边图片' menuSource="{{navigationSource}}"></menu>
+      <menu coverText="媒体组件" coverIcon='右边图片' menuSource="{{mediaSource}}"></menu>
+      <menu coverText="地图" coverIcon='右边图片' menuSource="{{mapSource}}"></menu>
+      <menu coverText="画布" coverIcon='右边图片' menuSource="{{canvasSource}}"></menu>
+      <menu coverText="开放能力" coverIcon='右边图片' menuSource="{{openAbilitySource}}"></menu>
     </view>
   </view>
-
 </view>

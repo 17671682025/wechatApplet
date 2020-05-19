@@ -1,11 +1,17 @@
 <!--base/component/menu.wxml-->
-<view class="wrap columnStartS">
+<view class="wrap margin columnStartS">
   <!-- cover -->
-  <view onclick="" class="menuWrap rowSbC">
-    <text class="mainTitleText">coverText</text>
-    <text class="mainTitleText">coverIcon</text>
+  <view bindtap="handleClick" class="itemWrap rowSbC">
+    <text class="mainTitleText">{{coverText}}</text>
+    <text class="mainTitleText">{{coverIcon}}</text>
     <!-- <image class="menuIcon" src="" mode="aspectFit" lazy-load="true" binderror="" bindload="" /> -->
   </view>
   <!-- list -->
-
+  <view class="wrap" wx-if="{{isOpen}}">
+    <view wx:for="{{menuSource}}" wx:key="unique" wx:for-item="items" wx:for-index='idx'
+      class="{{idx== menuSource.length-1 ? 'wrap itemWrap rowSbC':'bottomBorder wrap itemWrap rowSbC'}}">
+      <text class="mainTitleText">{{items.value}}</text>
+      <text class="mainTitleText">{{items.icon}}</text>
+    </view>
+  </view>
 </view>

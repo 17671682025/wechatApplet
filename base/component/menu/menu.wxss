@@ -27,6 +27,10 @@ page {
 .bold {
   font-weight: 700;
 }
+/* 边框样式 */
+.bottomBorder {
+  border-bottom: 1rpx solid #e5e5e5;
+}
 /* flex布局部分 */
 .flex1 {
   flex: 1;
@@ -328,9 +332,12 @@ page {
   background-color: #ffffff;
   border-radius: 10rpx;
 }
-.menuWrap {
+.margin {
+  margin-bottom: 20rpx;
+}
+.itemWrap {
   width: 100%;
-  min-height: 88rpx;
+  min-height: 120rpx;
   padding-left: 35rpx;
   padding-right: 35rpx;
   box-sizing: border-box;
