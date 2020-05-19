@@ -1,4 +1,5 @@
 // pages/tarBar/api.js
+import MockData from '../../../base/utils/mock';
 Page({
 
     /**
@@ -12,7 +13,17 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+	console.log('MockData', MockData);
+		this.setData({
+			openInterFaceSource: MockData.interface.interfaceObj.openInterFace,
+			pageSource: MockData.interface.interfaceObj.page,
+			deviceSource: MockData.interface.interfaceObj.device,
+			networkSource: MockData.interface.interfaceObj.network,
+			mediaSource: MockData.interface.interfaceObj.media,
+			positionSource: MockData.interface.interfaceObj.position,
+			dataSource: MockData.interface.interfaceObj.data,
+			multiThreadSource: MockData.interface.interfaceObj.multiThread,
+		});
     },
 
     /**

@@ -1,4 +1,5 @@
 // pages/tarBar/component.js
+import MockData from "../../../base/utils/mock"
 Page({
 
     /**
@@ -12,7 +13,14 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+	console.log('MockData', MockData);
+	this.setData({
+		formComponentSource: MockData.extendComponent.extendComponentObj.formComponent,
+		basicContentSource: MockData.extendComponent.extendComponentObj.basicContent,
+		operationalFeedbackSource: MockData.extendComponent.extendComponentObj.operationalFeedback,
+		navigationSource: MockData.extendComponent.extendComponentObj.navigation,
+		searchSource: MockData.extendComponent.extendComponentObj.search,
+	});
     },
 
     /**

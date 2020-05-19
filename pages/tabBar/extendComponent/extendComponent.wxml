@@ -1,2 +1,17 @@
-<!--pages/tarBar/component.wxml-->
-<text>pages/tarBar/extendComponent.wxml</text>
+
+<view class="container p20 columnStartC">
+  <view class="headerBox rowCenterC">
+    <text class="subText lineHeight  alignCenter">
+      小程序UI组件是基于WeUi封装的组件库，是一套同微信原生视觉体验一致的组件库，由微信官方设计团队和小程序团队为微信小程序量身设计，令用户的使用感知更加统一
+    </text>
+  </view>
+  <view class="wrap flex1 columnStartC">
+    <view class="wrap menuWrap">
+      <menu coverText="表单" coverIcon='右边图片' menuSource="{{formComponentSource}}"></menu>
+      <menu coverText="基础组件" coverIcon='右边图片' menuSource="{{basicContentSource}}"></menu>
+      <menu coverText="操作反馈" coverIcon='右边图片' menuSource="{{operationalFeedbackSource}}"></menu>
+      <menu coverText="导航相关" coverIcon='右边图片' menuSource="{{navigationSource}}"></menu>
+      <menu coverText="搜索相关" coverIcon='右边图片' menuSource="{{searchSource}}"></menu>
+    </view>
+  </view>
+</view>

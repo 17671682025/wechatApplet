@@ -13,3 +13,6 @@
 .wrap {
   width: 100%;
 }
+.lineHeight {
+  line-height: 35rpx;
+}

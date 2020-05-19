@@ -1,5 +1,7 @@
 {
-  "usingComponents": {},
+  "usingComponents": {
+    "menu": "/base/component/menu/menu"
+  },
   "backgroundTextStyle": "light",
   "navigationBarBackgroundColor": "#fff",
   "navigationBarTitleText": "API库",

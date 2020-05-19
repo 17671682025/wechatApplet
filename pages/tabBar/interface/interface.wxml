@@ -1,2 +1,20 @@
 <!--pages/tarBar/api.wxml-->
-<text>pages/tarBar/interface.wxml</text>
+<view class="container p20 columnStartC">
+  <view class="headerBox rowCenterC">
+    <text class="subText lineHeight  alignCenter">
+      以下将演示小程序接口能力，具体参数详见<text class="outStandingText">小程序开发文档</text>
+    </text>
+  </view>
+  <view class="wrap flex1 columnStartC">
+    <view class="wrap menuWrap">
+      <menu coverText="开放接口" coverIcon='右边图片' menuSource="{{openInterFaceSource}}"></menu>
+      <menu coverText="界面" coverIcon='右边图片' menuSource="{{pageSource}}"></menu>
+      <menu coverText="设备" coverIcon='右边图片' menuSource="{{deviceSource}}"></menu>
+      <menu coverText="网络" coverIcon='右边图片' menuSource="{{networkSource}}"></menu>
+      <menu coverText="媒体" coverIcon='右边图片' menuSource="{{mediaSource}}"></menu>
+      <menu coverText="位置" coverIcon='右边图片' menuSource="{{positionSource}}"></menu>
+      <menu coverText="数据" coverIcon='右边图片' menuSource="{{dataSource}}"></menu>
+      <menu coverText="多线程" coverIcon='右边图片' menuSource="{{multiThreadSource}}"></menu>
+    </view>
+  </view>
+</view>

@@ -1,5 +1,5 @@
 // pages/tarBar/component.js
-import MockData from "../../../base/utils/mock"
+import MockData from '../../../base/utils/mock';
 Page({
 	/**
 	 * 页面的初始数据
@@ -10,17 +10,17 @@ Page({
 		// 基本内容数据
 		basicContentSource: [],
 		// 表单组件数据
-        formComponentSource:[],
-        // 导航组件数据
-        navigationSource:[],
-        // 媒体组件数据
-        mediaSource:[],
-        // 地图组件数据
-        mapSource:[],
-        // 画布组件数据
-        canvasSource:[],
-        // 开放能力
-        openAbilitySource:[]
+		formComponentSource: [],
+		// 导航组件数据
+		navigationSource: [],
+		// 媒体组件数据
+		mediaSource: [],
+		// 地图组件数据
+		mapSource: [],
+		// 画布组件数据
+		canvasSource: [],
+		// 开放能力
+		openAbilitySource: [],
 	},
 
 	/**

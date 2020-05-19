@@ -1,2 +1,16 @@
 <!--pages/tarBar/api.wxml-->
-<text>pages/tarBar/cloudDevelop.wxml</text>
+<view class="container p20 columnStartC">
+  <view class="headerBox rowCenterC">
+    <text class="subText lineHeight  alignCenter">
+      以下将演示小程序云开发能力，具体参数详见<text class="outStandingText">小程序开发文档</text>
+    </text>
+  </view>
+  <view class="wrap flex1 columnStartC">
+    <view class="wrap menuWrap">
+      <menu coverText="用户鉴权" coverIcon='右边图片' menuSource="{{userAuthenticationSource}}"></menu>
+      <menu coverText="数据库" coverIcon='右边图片' menuSource="{{dataBaseSource}}"></menu>
+      <menu coverText="存储" coverIcon='右边图片' menuSource="{{storageSource}}"></menu>
+      <menu coverText="云函数" coverIcon='右边图片' menuSource="{{cloudFunctionSource}}"></menu>
+    </view>
+  </view>
+</view>
