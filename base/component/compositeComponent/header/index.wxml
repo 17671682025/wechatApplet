@@ -1,0 +1,3 @@
+  <view class="margin">
+    <component-name componentText="{{content}}"></component-name>
+  </view>

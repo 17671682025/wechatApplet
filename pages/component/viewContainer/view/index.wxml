@@ -1,2 +1,5 @@
-<!--pages/component/viewContainer/view/index.wxml-->
-<text>pages/component/viewContainer/view/index.wxml</text>
+<view class="viewComponentContainer columnStartStretch ">
+  <!-- 组件名字区域 -->
+  <header content="view"></header>
+  <!-- 组件属性介绍 -->
+</view>

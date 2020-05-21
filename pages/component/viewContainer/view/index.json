@@ -1,3 +1,5 @@
 {
-  "usingComponents": {}
+  "usingComponents": {
+    "header":"/base/component/compositeComponent/header/index"
+  }
 }

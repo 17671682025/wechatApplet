@@ -1,4 +1,4 @@
-/* pages/component/viewContainer/view/index.wxss */
+/* base/component/componentTitle/index.wxss */
 /**app.less**/
 page {
   height: 100%;
@@ -328,7 +328,15 @@ page {
 .reverseFlexWrap {
   flex-wrap: wrap-reverse;
 }
-.viewComponentContainer {
-  min-height: 100%;
-  background-color: #ffffff;
+.componentText {
+  font-size: 36rpx;
+  color: rgba(0, 0, 0, 0.65);
+}
+.pad {
+  padding-left: 50rpx;
+  padding-right: 50rpx;
+  padding-bottom: 15rpx;
+}
+.bottom {
+  border-bottom: 1rpx solid rgba(0, 0, 0, 0.85);
 }
