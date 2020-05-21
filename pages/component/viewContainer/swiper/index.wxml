@@ -1,2 +1,5 @@
-<!--pages/component/viewContainer/swiper/index.wxml-->
-<text>pages/component/viewContainer/swiper/index.wxml</text>
+<pageContainer headerTitle="swiper">
+  <view>
+    <text>测试文案</text>
+  </view>
+</pageContainer>

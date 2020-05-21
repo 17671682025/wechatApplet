@@ -1,4 +1,4 @@
-import navigate from '../../utils/navigation';
+
 Component({
 	// 组件数据监听器
 	observers: {},

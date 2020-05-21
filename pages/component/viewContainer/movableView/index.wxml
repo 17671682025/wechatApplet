@@ -1,2 +1,5 @@
-<!--pages/component/viewContainer/movableView/index.wxml-->
-<text>pages/component/viewContainer/movableView/index.wxml</text>
+<pageContainer headerTitle="movable-view">
+  <view>
+    <text>测试文案</text>
+  </view>
+</pageContainer>

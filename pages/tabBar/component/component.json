@@ -1,6 +1,6 @@
 {
   "usingComponents": {
-    "menu": "/base/component/menu/menu"
+    "menu": "/base/component/compositeComponent/menu/menu"
   },
   "backgroundTextStyle": "light",
   "navigationBarBackgroundColor": "#fff",

@@ -1,0 +1,6 @@
+<view class="viewComponentContainer columnStartStretch ">
+  <!-- 组件名字区域 -->
+  <header content="{{headerTitle}}"></header>
+  <slot></slot>
+</view>
+

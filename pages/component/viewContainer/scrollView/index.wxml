@@ -1,2 +1,5 @@
-<!--pages/component/viewContainer/scrollView/index.wxml-->
-<text>pages/component/viewContainer/scrollView/index.wxml</text>
+<pageContainer headerTitle="scroll-view">
+  <view>
+    <text>测试文案</text>
+  </view>
+</pageContainer>

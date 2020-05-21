@@ -1,2 +1,6 @@
-<!--pages/component/viewContainer/coverView/index.wxml-->
-<text>pages/component/viewContainer/coverView/index.wxml</text>
+
+<pageContainer headerTitle="cover-view">
+  <view>
+    <text>测试文案</text>
+  </view>
+</pageContainer>

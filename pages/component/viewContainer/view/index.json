@@ -1,5 +1,5 @@
 {
   "usingComponents": {
-    "header":"/base/component/compositeComponent/header/index"
+    "pageContainer":"/base/component/compositeComponent/pageContainer/index"
   }
 }

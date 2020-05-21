@@ -1,2 +1,5 @@
-<!--pages/component/viewContainer/coverImage/index.wxml-->
-<text>pages/component/viewContainer/coverImage/index.wxml</text>
+<pageContainer headerTitle="cover-image">
+  <view>
+    <text>测试文案</text>
+  </view>
+</pageContainer>

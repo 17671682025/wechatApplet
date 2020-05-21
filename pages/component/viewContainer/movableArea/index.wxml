@@ -1,2 +1,5 @@
-<!--pages/component/viewContainer/movableArea/index.wxml-->
-<text>pages/component/viewContainer/movableArea/index.wxml</text>
+<pageContainer headerTitle="movable-area">
+  <view>
+    <text>测试文案</text>
+  </view>
+</pageContainer>

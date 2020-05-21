@@ -1,5 +1,5 @@
-<view class="viewComponentContainer columnStartStretch ">
-  <!-- 组件名字区域 -->
-  <header content="view"></header>
-  <!-- 组件属性介绍 -->
-</view>
+<pageContainer headerTitle="view">
+  <view>
+    <text>测试文案</text>
+  </view>
+</pageContainer>
