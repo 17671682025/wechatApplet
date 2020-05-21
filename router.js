@@ -10,11 +10,14 @@ let interfacePath = 'pages/interface/';
 let cloudDevelopPath = 'pages/cloudDevelop/';
 // 官方组件的视图容器组件路由
 let officialViewContainerRouter = [
-	{ routerName: 'view', routerPath: `${officialComponentPath}viewContainer/view/index` },
+	{ routerName: 'cover-image', routerPath: `${officialComponentPath}viewContainer/coverImage/index` },
+	{ routerName: 'cover-view', routerPath: `${officialComponentPath}viewContainer/coverView/index` },
+	{ routerName: 'movable-area', routerPath: `${officialComponentPath}viewContainer/movableArea/index` },
+	{ routerName: 'movable-view', routerPath: `${officialComponentPath}viewContainer/movableView/index` },
 	{ routerName: 'scroll-view', routerPath: `${officialComponentPath}viewContainer/scrollView/index` },
 	{ routerName: 'swiper', routerPath: `${officialComponentPath}viewContainer/swiper/index` },
-	{ routerName: 'movable-view', routerPath: `${officialComponentPath}viewContainer/movableView/index` },
-	{ routerName: 'cover-view', routerPath: `${officialComponentPath}viewContainer/coverView/index` },
+	{ routerName: 'swiper-item', routerPath: `${officialComponentPath}viewContainer/swiperItem/index` },
+	{ routerName: 'view', routerPath: `${officialComponentPath}viewContainer/view/index` },
 ];
 
 // 官方组件的基础内容组件路由
@@ -30,29 +33,35 @@ let officialBasicContentRouter = [
 let officialFormComponentRouter = [
 	{ routerName: 'button', routerPath: `${officialComponentPath}formComponent/button/index` },
 	{ routerName: 'checkbox', routerPath: `${officialComponentPath}formComponent/checkbox/index` },
+	{ routerName: 'checkbox-group', routerPath: `${officialComponentPath}formComponent/checkboxGroup/index` },
+	{ routerName: 'editor', routerPath: `${officialComponentPath}formComponent/editor/index` },
 	{ routerName: 'form', routerPath: `${officialComponentPath}formComponent/form/index` },
 	{ routerName: 'input', routerPath: `${officialComponentPath}formComponent/input/index` },
 	{ routerName: 'label', routerPath: `${officialComponentPath}formComponent/label/index` },
 	{ routerName: 'picker', routerPath: `${officialComponentPath}formComponent/picker/index` },
 	{ routerName: 'picker-view', routerPath: `${officialComponentPath}formComponent/pickerView/index` },
+	{ routerName: 'picker-view-column', routerPath: `${officialComponentPath}formComponent/pickerViewColumn/index` },
 	{ routerName: 'radio', routerPath: `${officialComponentPath}formComponent/radio/index` },
+	{ routerName: 'radio-group', routerPath: `${officialComponentPath}formComponent/radioGroup/index` },
 	{ routerName: 'slider', routerPath: `${officialComponentPath}formComponent/slider/index` },
 	{ routerName: 'switch', routerPath: `${officialComponentPath}formComponent/switch/index` },
 	{ routerName: 'textarea', routerPath: `${officialComponentPath}formComponent/textArea/index` },
-	{ routerName: 'editor', routerPath: `${officialComponentPath}formComponent/editor/index` },
 ];
 
 // 官方组件的导航组件路由
 let officialNavigationRouter = [
+	{ routerName: 'function-page-navigator', routerPath: `${officialComponentPath}navigation/functionPageNavigator/index` },
 	{ routerName: 'navigator', routerPath: `${officialComponentPath}navigation/navigator/index` },
 ];
 
 // 官方组件的媒体组件路由
 let officialMediaRouter = [
-	{ routerName: 'image', routerPath: `${officialComponentPath}media/image/index` },
 	{ routerName: 'audio', routerPath: `${officialComponentPath}media/audio/index` },
-	{ routerName: 'video', routerPath: `${officialComponentPath}media/video/index` },
 	{ routerName: 'camera', routerPath: `${officialComponentPath}media/camera/index` },
+	{ routerName: 'image', routerPath: `${officialComponentPath}media/image/index` },
+	{ routerName: 'live-player', routerPath: `${officialComponentPath}media/livePlayer/index` },
+	{ routerName: 'live-pusher', routerPath: `${officialComponentPath}media/livePusher/index` },
+	{ routerName: 'video', routerPath: `${officialComponentPath}media/video/index` },
 ];
 
 // 官方组件的地图组件路由
@@ -66,6 +75,7 @@ let officialCanvasRouter = [{ routerName: 'canvas', routerPath: `${officialCompo
 // 官方组件的开放能力组件路由
 let officialOpenAbilityRouter = [
 	{ routerName: 'ad', routerPath: `${officialComponentPath}openAbility/ad/index` },
+	{ routerName: 'official-account', routerPath: `${officialComponentPath}openAbility/officialAccount/index` },
 	{ routerName: 'open-data', routerPath: `${officialComponentPath}openAbility/openData/index` },
 	{ routerName: 'web-view', routerPath: `${officialComponentPath}openAbility/webView/index` },
 ];
