@@ -1,1 +1,4 @@
 /* pages/component/map/map/index.wxss */
+.mapStyle {
+  height: 300px;
+}

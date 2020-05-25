@@ -1,6 +1,8 @@
-<view class="viewComponentContainer columnStartStretch ">
-  <!-- 组件名字区域 -->
-  <header content="{{headerTitle}}"></header>
-  <slot></slot>
+<view class="viewComponentContainer columnStartStretch border_top">
+ <scroll-view class="scrollView padH" >
+    <!-- 组件名字区域 -->
+    <header content="{{headerTitle}}"></header>
+    <slot></slot>
+ </scroll-view>
 </view>
 

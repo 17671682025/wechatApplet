@@ -329,6 +329,18 @@ page {
   flex-wrap: wrap-reverse;
 }
 .viewComponentContainer {
+  height: 100%;
+  box-sizing: border-box;
+}
+.scrollView {
   min-height: 100%;
+  box-sizing: border-box;
   background-color: #ffffff;
+}
+.padH {
+  padding-left: 35rpx;
+  padding-right: 35rpx;
+}
+.border_top {
+  border-top: 1rpx solid #e5e5e5;
 }

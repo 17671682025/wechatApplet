@@ -1,10 +1,12 @@
 /**app.less**/
 @import './base/style/color.less';
 @import './base/style/font.less';
+
 page {
 	height: 100%;
 	background-color: @background_page_common;
 }
+
 .container {
 	height: 100%;
 	box-sizing: border-box;
@@ -15,29 +17,36 @@ page {
 	font-size: @text_main_font;
 	color: @text_main_title;
 }
+
 .titleText {
 	font-size: @text_title_font;
 	color: @text_title;
 }
+
 .subText {
 	font-size: @text_subtitle_font;
 	color: @text_subtitle;
 }
+
 .outStandingText {
 	font-size: @text_subtitle_font;
 	color: @text_outStanding_href;
 }
-.bold{
+
+.bold {
 	font-weight: 700;
 }
+
 /* 边框样式 */
-.bottomBorder{
+.bottomBorder {
 	border-bottom: 1rpx solid @border_common;
 }
+
 /* flex布局部分 */
 .flex1 {
 	flex: 1;
 }
+
 /* 主轴横向 主轴start  侧轴start */
 .rowStartS {
 	display: flex;
@@ -45,6 +54,7 @@ page {
 	justify-content: flex-start;
 	align-items: flex-start;
 }
+
 /* 主轴横向 主轴start 侧轴center */
 .rowStartC {
 	display: flex;
@@ -52,6 +62,7 @@ page {
 	justify-content: flex-start;
 	align-items: center;
 }
+
 /* 主轴横向 主轴start 侧轴end */
 .rowStartE {
 	display: flex;
@@ -59,6 +70,7 @@ page {
 	justify-content: flex-start;
 	align-items: flex-end;
 }
+
 /* 主轴横向 主轴start 侧轴stretch */
 .rowStartStretch {
 	display: flex;
@@ -74,6 +86,7 @@ page {
 	justify-content: center;
 	align-items: flex-start;
 }
+
 /* 主轴横向 主轴center 侧轴center */
 .rowCenterC {
 	display: flex;
@@ -81,6 +94,7 @@ page {
 	justify-content: center;
 	align-items: center;
 }
+
 /* 主轴横向 主轴center 侧轴end */
 .rowCenterE {
 	display: flex;
@@ -88,6 +102,7 @@ page {
 	justify-content: center;
 	align-items: flex-end;
 }
+
 /* 主轴横向 主轴center 侧轴stretch */
 .rowCenterStretch {
 	display: flex;
@@ -103,6 +118,7 @@ page {
 	justify-content: flex-end;
 	align-items: flex-start;
 }
+
 /* 主轴横向 主轴end 侧轴center */
 .rowEndC {
 	display: flex;
@@ -110,6 +126,7 @@ page {
 	justify-content: flex-end;
 	align-items: center;
 }
+
 /* 主轴横向 主轴end 侧轴end */
 .rowEndE {
 	display: flex;
@@ -117,6 +134,7 @@ page {
 	justify-content: flex-end;
 	align-items: flex-end;
 }
+
 /* 主轴横向 主轴end 侧轴stretch */
 .rowEndStretch {
 	display: flex;
@@ -132,6 +150,7 @@ page {
 	justify-content: space-between;
 	align-items: flex-start;
 }
+
 /* 主轴横向 主轴space-between 侧轴center */
 .rowSbC {
 	display: flex;
@@ -139,6 +158,7 @@ page {
 	justify-content: space-between;
 	align-items: center;
 }
+
 /* 主轴横向 主轴space-between 侧轴end */
 .rowSbE {
 	display: flex;
@@ -146,6 +166,7 @@ page {
 	justify-content: space-between;
 	align-items: flex-end;
 }
+
 /* 主轴横向 主轴space-between 侧轴stretch */
 .rowSbStretch {
 	display: flex;
@@ -161,6 +182,7 @@ page {
 	justify-content: space-around;
 	align-items: flex-start;
 }
+
 /* 主轴横向 主轴space-around 侧轴center */
 .rowSaC {
 	display: flex;
@@ -168,6 +190,7 @@ page {
 	justify-content: space-around;
 	align-items: center;
 }
+
 /* 主轴横向 主轴space-around 侧轴end */
 .rowSaE {
 	display: flex;
@@ -175,6 +198,7 @@ page {
 	justify-content: space-around;
 	align-items: flex-end;
 }
+
 /* 主轴横向 主轴space-around 侧轴stretch */
 .rowSaStretch {
 	display: flex;
@@ -190,6 +214,7 @@ page {
 	justify-content: flex-start;
 	align-items: flex-start;
 }
+
 /* 主轴纵向 主轴start 侧轴center */
 .columnStartC {
 	display: flex;
@@ -197,6 +222,7 @@ page {
 	justify-content: flex-start;
 	align-items: center;
 }
+
 /* 主轴纵向 主轴start 侧轴end */
 .columnStartE {
 	display: flex;
@@ -204,6 +230,7 @@ page {
 	justify-content: flex-start;
 	align-items: flex-end;
 }
+
 /* 主轴纵向 主轴start 侧轴stretch */
 .columnStartStretch {
 	display: flex;
@@ -219,6 +246,7 @@ page {
 	justify-content: center;
 	align-items: flex-start;
 }
+
 /* 主轴纵向 主轴center 侧轴center */
 .columnCenterC {
 	display: flex;
@@ -226,6 +254,7 @@ page {
 	justify-content: center;
 	align-items: center;
 }
+
 /* 主轴纵向 主轴center 侧轴end */
 .columnCenterE {
 	display: flex;
@@ -233,6 +262,7 @@ page {
 	justify-content: center;
 	align-items: flex-end;
 }
+
 /* 主轴纵向 主轴center 侧轴stretch */
 .columnCenterStretch {
 	display: flex;
@@ -248,6 +278,7 @@ page {
 	justify-content: flex-end;
 	align-items: flex-start;
 }
+
 /* 主轴纵向 主轴end 侧轴center */
 .columnEndC {
 	display: flex;
@@ -255,6 +286,7 @@ page {
 	justify-content: flex-end;
 	align-items: center;
 }
+
 /* 主轴纵向 主轴end 侧轴end */
 .columnEndE {
 	display: flex;
@@ -262,6 +294,7 @@ page {
 	justify-content: flex-end;
 	align-items: flex-end;
 }
+
 /* 主轴纵向 主轴end 侧轴stretch */
 .columnEndStretch {
 	display: flex;
@@ -277,6 +310,7 @@ page {
 	justify-content: space-between;
 	align-items: flex-start;
 }
+
 /* 主轴纵向 主轴space-between 侧轴center */
 .columnSbC {
 	display: flex;
@@ -284,6 +318,7 @@ page {
 	justify-content: space-between;
 	align-items: center;
 }
+
 /* 主轴纵向 主轴space-between 侧轴end */
 .columnSbE {
 	display: flex;
@@ -291,6 +326,7 @@ page {
 	justify-content: space-between;
 	align-items: flex-end;
 }
+
 /* 主轴纵向 主轴space-between 侧轴stretch */
 .columnSbStretch {
 	display: flex;
@@ -306,6 +342,7 @@ page {
 	justify-content: space-around;
 	align-items: flex-start;
 }
+
 /* 主轴纵向 主轴space-around 侧轴center */
 .columnSaC {
 	display: flex;
@@ -313,6 +350,7 @@ page {
 	justify-content: space-around;
 	align-items: center;
 }
+
 /* 主轴纵向 主轴space-around 侧轴end */
 .columnSaE {
 	display: flex;
@@ -320,6 +358,7 @@ page {
 	justify-content: space-around;
 	align-items: flex-end;
 }
+
 /* 主轴纵向 主轴space-around 侧轴stretch */
 .columnSaStretch {
 	display: flex;

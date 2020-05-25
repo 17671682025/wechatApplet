@@ -1,6 +1,6 @@
 <!--base/component/componentTitle/index.wxml-->
-<view class="rowCenterC">
-    <view class="pad bottom">
+<view class="rowStartC">
+    <view>
         <text class="componentText bold">{{componentText}}</text>
     </view>
 </view>

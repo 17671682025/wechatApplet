@@ -1,2 +1,3 @@
-<!--base/component/nestingText.wxml-->
-<text>base/component/nestingText.wxml</text>
+<view>
+  <text class="labelText">{{labelText}}</text><text class="valueText bold">{{content}}</text>
+</view>

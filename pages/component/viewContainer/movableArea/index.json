@@ -1,5 +1,10 @@
 {
   "usingComponents": {
-    "pageContainer": "/base/component/compositeComponent/pageContainer/index"
-  }
+    "pageContainer": "/base/component/compositeComponent/pageContainer/index",
+    "title":"/base/component/basicComponent/nestingText/nestingText"
+  },
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "movable-area",
+  "navigationBarTextStyle": "black"
 }

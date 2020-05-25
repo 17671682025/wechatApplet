@@ -1,2 +1,28 @@
-<!--pages/component/map/map/index.wxml-->
-<text>pages/component/map/map/index.wxml</text>
+<pageContainer headerTitle="map">
+	<view>
+		<map
+      id="map"
+      class="mapStyle"
+			longitude="{{ longitude }}"
+			latitude="{{ latitude }}"
+			scale="{{ scale }}"
+			markers="{{ markers }}"
+      polyline="{{polyline}}"
+      circles="{{circles}}"
+      show-location="{{showLocation}}"
+      polygons="{{polygons}}"
+      rotate="{{rotate}}"
+      skew="{{skew}}"
+      enable-3D="{{enable3D}}"
+      show-compass="{{ showCompass }}"
+      show-scale="{{showScale}}"
+      enable-overlooking="{{enableOverlooking}}"
+      enable-zoom="{{enableZoom}}"
+      enable-scroll="{{ enableScroll }}"
+      enable-rotate="{{enableRotate}}"
+      enable-satellite="{{enableSatellite}}"
+      enable-traffic="{{enableTraffic}}"
+      bindmarkertap="{{onBindMarkerTap}}"
+		></map>
+	</view>
+</pageContainer>
