@@ -1,5 +1,5 @@
 <pageContainer headerTitle="movable-area">
-  <view>
-    
-  </view>
+	<movable-area class="movableArea" scale-area="false">
+		<movable-view class="movableView" direction="all"> </movable-view>
+	</movable-area>
 </pageContainer>

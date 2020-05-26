@@ -1,5 +1,21 @@
 <pageContainer headerTitle="movable-view">
-  <view>
-    <text>测试文案</text>
-  </view>
+	<movable-area class="movableArea" scale-area="false">
+		<movable-view
+			class="movableView"
+			direction="all"
+			inertia="{{ inertia }}"
+      out-of-bounds="{{ outOfBound }}"
+      x="{{x}}"
+      y="{{y}}"
+			damping="{{ damping }}"
+			friction="{{ friction }}"
+			disabled="{{ disabled }}"
+			scale="{{ scale }}"
+			scale-min="{{ scaleMin }}"
+			scale-max="{{ scaleMax }}"
+			scaleValue="{{ scaleValue }}"
+			animation="{{ animation }}"
+		>
+		</movable-view>
+	</movable-area>
 </pageContainer>

@@ -1,1 +1,11 @@
 /* pages/component/viewContainer/movableView/index.wxss */
+.movableArea {
+  width: 100%;
+  height: 750rpx;
+  background-color: green;
+}
+.movableView {
+  width: 150rpx;
+  height: 150rpx;
+  background-color: yellow;
+}

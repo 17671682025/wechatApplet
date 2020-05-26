@@ -1,6 +1,10 @@
 
 <pageContainer headerTitle="cover-view">
   <view>
-    <text>测试文案</text>
+    <map name="map_cover_view" class="mapStyle">
+      <cover-view class="coverView" scroll-top="{{scrollTop}}">
+        
+      </cover-view>
+    </map>
   </view>
 </pageContainer>

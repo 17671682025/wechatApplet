@@ -1,5 +1,9 @@
 <pageContainer headerTitle="cover-image">
   <view>
-    <text>测试文案</text>
+    <map name="mapStyle">
+      <cover-image class="coverImage" src="http://img3.imgtn.bdimg.com/it/u=3118158831,1502048080&fm=26&gp=0.jpg" bindload="bindload" binderror="">
+        
+      </cover-image>
+    </map>
   </view>
 </pageContainer>

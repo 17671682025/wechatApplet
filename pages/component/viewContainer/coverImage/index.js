@@ -62,5 +62,11 @@ Page({
      */
     onShareAppMessage: function () {
 
+    },
+    /**
+     * 图片加载成功
+     */
+    bindload:function() {
+        console.log("图片加载成功")
     }
 })
