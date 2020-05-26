@@ -1,5 +1,27 @@
 <pageContainer headerTitle="scroll-view">
-  <view>
-    <text>测试文案</text>
-  </view>
+	<view>
+		<scroll-view
+			class="scrollViewStyle"
+			scroll-y="{{ scrollY }}"
+			upper-threshold="{{ upperThreshold }}"
+			bindscrolltoupper="bindscrolltoupper"
+			lower-threshold="{{lowerThreshold}}"
+			bindscrolltolower="bindscrolltolower"
+			scroll-with-animation="{{scrollWithAnimation}}"
+			scroll-into-view="{{scrollIntoView}}"
+			enable-back-to-top="{{enableBackToTop}}"
+			bindscroll="bindscroll"
+		>
+			<view id="item_1" class="listItem margin"> </view>
+			<view id="item_2" class="listItem margin"> </view>
+			<view id="item_3" class="listItem margin"> </view>
+			<view id="item_4" class="listItem margin"> </view>
+			<view id="item_5" class="listItem margin"> </view>
+			<view id="item_6" class="listItem margin"> </view>
+			<view id="item_7" class="listItem margin"> </view>
+			<view id="item_8" class="listItem margin"> </view>
+			<view id="item_9" class="listItem margin"> </view>
+			<view id="item_10" class="listItem margin"> </view>
+		</scroll-view>
+	</view>
 </pageContainer>

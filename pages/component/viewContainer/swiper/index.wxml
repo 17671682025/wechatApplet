@@ -1,5 +1,28 @@
 <pageContainer headerTitle="swiper">
-  <view>
-    <text>测试文案</text>
-  </view>
+	<view>
+		<swiper
+			class="swiperStyle"
+			autoplay="{{ autoplay }}"
+			indicator-dots="{{ indicatorDots }}"
+			indicator-color="{{ indicatorColor }}"
+			indicator-active-color="{{ indicatorActiveColor }}"
+			current="{{ current }}"
+			interval="{{ interval }}"
+			duration="{{ duration }}"
+      circular="{{ circular }}"
+      vertical="{{vertical}}"
+			previous-margin="{{ previousMargin }}"
+			next-margin="{{ nextMargin }}"
+			display-multiple-items="{{ displayMultipleItems }}"
+			bindchange="bindchange"
+			bindtransition="bindtransition"
+			bindanimationfinish="bindanimationfinish"
+		>
+			<block wx:key="itemId" wx:for="{{ swiperList }}" wx:for-item="items">
+				<swiper-item class="swiperStyle" item-id="{{ items.itemId }}">
+					<image class="swiperStyle" src="{{ items.src }}" mode="aspectFill" lazy-load="true"> </image>
+				</swiper-item>
+			</block>
+		</swiper>
+	</view>
 </pageContainer>

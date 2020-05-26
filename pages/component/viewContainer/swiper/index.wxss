@@ -1,1 +1,5 @@
 /* pages/component/viewContainer/swiper/index.wxss */
+.swiperStyle {
+  width: 100%;
+  height: 650rpx;
+}
