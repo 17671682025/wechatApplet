@@ -1,2 +1,3 @@
-<!--pages/component/media/camera/index.wxml-->
-<text>pages/component/media/camera/index.wxml</text>
+<pageContainer headerTitle="camera">
+	<view> </view>
+</pageContainer>

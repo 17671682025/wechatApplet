@@ -1,2 +1,13 @@
-<!--pages/component/media/image/index.wxml-->
-<text>pages/component/media/image/index.wxml</text>
+<pageContainer headerTitle="image">
+	<view>
+		<view>
+			<image
+				class="image"
+				src="{{ src }}"
+				mode="{{ mode }}"
+				lazy-load="{{ lazyLoad }}"
+				show-menu-by-longpress="{{ showMenuByLongPress }}"
+			/>
+		</view>
+	</view>
+</pageContainer>

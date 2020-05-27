@@ -1,2 +1,3 @@
-<!--pages/component/media/livePlayer/index.wxml-->
-<text>pages/component/media/livePlayer/index.wxml</text>
+<pageContainer headerTitle="live-player">
+	<view> </view>
+</pageContainer>

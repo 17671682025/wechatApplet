@@ -1,2 +1,4 @@
-<!--pages/component/media/video/index.wxml-->
-<text>pages/component/media/video/index.wxml</text>
+
+<pageContainer headerTitle="video">
+	<view> </view>
+</pageContainer>
