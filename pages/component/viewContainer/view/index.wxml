@@ -1,5 +1,11 @@
 <pageContainer headerTitle="view">
-  <view>
-    <text>测试文案</text>
-  </view>
+	<view>
+		<view
+			class="viewStyle"
+			hover-class="activeStyle"
+			hover-stop-propagation="{{ hoverStopPropagation }}"
+			hover-start-time="{{ hoverStartTime }}"
+			hover-stay-time="{{ hoverStayTime }}"
+		></view>
+	</view>
 </pageContainer>
