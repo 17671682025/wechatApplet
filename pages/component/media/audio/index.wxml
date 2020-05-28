@@ -1,3 +1,18 @@
 <pageContainer headerTitle="audio">
-	<view> </view>
+	<view>
+		<view class="audioView">
+			<audio id="exampleAudio" controls="{{controls}}" src="{{src}}" poster="{{poster}}" name="{{name}}"
+				author="{{author}}" loop="{{loop}}" />
+		</view>
+		<view bindtap="onPlay" class="button rowCenterC">
+			<text class="buttonText">播放</text>
+		</view>
+		<view bindtap="onPause" class="button rowCenterC">
+			<text class="buttonText">暂停</text>
+		</view>
+		<view bindtap="onSeek" class="button rowCenterC">
+			<text class="buttonText">跳转到1分钟</text>
+		</view>
+
+	</view>
 </pageContainer>
