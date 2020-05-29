@@ -1,4 +1,53 @@
-
 <pageContainer headerTitle="video">
-	<view> </view>
+	<view>
+		<view class="videoView">
+			<video
+				class="videoView"
+				src="{{ src }}"
+				controls="{{ controls }}"
+				danmu-list="{{ danMuList }}"
+				danmu-btn="{{ danMuBtn }}"
+				enable-danmu="{{ enableDanMu }}"
+				autoplay="{{ autoPlay }}"
+				loop="{{ loop }}"
+				muted="{{ muted }}"
+				initial-time="{{ initialTime }}"
+				direction="{{ direction }}"
+				show-progress="{{ showProgress }}"
+				show-fullscreen-btn="{{ showFullScreenBtn }}"
+				show-play-btn="{{ showPlayBtn }}"
+				show-center-play-btn="{{ showCenterPlayBtn }}"
+				enable-progress-gesture="{{ enableProgressGesture }}"
+				object-fit="{{ objectFit }}"
+				poster="{{ poster }}"
+				show-mute-btn="{{ showMuteBtn }}"
+				title="{{ title }}"
+				play-btn-position="{{ playPositionBtn }}"
+				enable-play-gesture="{{ enablePlayGesture }}"
+				auto-pause-if-navigate="{{ autoPauseIfNavigate }}"
+				auto-pause-if-open-native="{{ autoPauseOpenNavigate }}"
+				vslide-gesture="{{ vSlideGesture }}"
+				vslide-gesture-in-fullscreen="{{ vSlideGestureFullScreen }}"
+				enable-progress-gesture="{{ enableProgressGesture }}"
+				picture-in-picture-mode="{{ pictureInPictureMode }}"
+				enable-auto-rotation="{{ enableAutoRotation }}"
+				show-screen-lock-button="{{ showScreenLockButton }}"
+				bindplay="onPlay"
+				bindpause="onPause"
+				bindended="onEnd"
+				bindtimeupdate="onTimeUpdate"
+				bindfullscreenchange="onfullScreenChange"
+				bindwaiting="onWaiting"
+				binderror="onError"
+				bindprogress="onProgress"
+				bindloadedmetadata="onLoadMetaData"
+				bindcontrolstoggle="onControlsToggle"
+				bindenterpictureinpicture="onEntryPictureInPicture"
+				bindleavepictureinpicture="onLeavePictureInPicture"
+			></video>
+		</view>
+		<View bindtap="onGoBack" class="pushPage rowCenterC">
+			<text class="buttonText">返回上一级页面</text>
+		</View>
+	</view>
 </pageContainer>
