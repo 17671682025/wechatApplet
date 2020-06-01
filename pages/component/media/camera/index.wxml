@@ -1,3 +1,27 @@
 <pageContainer headerTitle="camera">
-	<view> </view>
+	<view>
+		<view class="cameraView margin">
+			<camera
+				mode="{{ mode }}"
+				resolution="{{ resolution }}"
+				device-position="{{ devicePosition }}"
+				flash="{{ flash }}"
+				frame-size="{{ frameSize }}"
+				class="camera"
+				bindstop="onStop"
+				binderror="onError"
+				bindinitdone="onInitDone"
+				bindscancode="onScanCode"
+			></camera>
+		</view>
+		<view bindtap="onChangeCameraPosition" class="buttonView margin rowCenterC">
+			<text class="buttonText">更改摄像头方向</text>
+		</view>
+		<view bindtap="onChangeFlashMode" class="buttonView margin rowCenterC">
+			<text class="buttonText">更改闪光灯模式</text>
+		</view>
+		<view bindtap="onChangePhotoQA"  class="buttonView margin rowCenterC">
+			<text class="buttonText">更改照片质量</text>
+		</view>
+	</view>
 </pageContainer>
