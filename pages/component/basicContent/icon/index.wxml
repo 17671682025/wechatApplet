@@ -1,3 +1,16 @@
 <pageContainer headerTitle="icon">
-	<view></view>
+	<view>
+		<view class="iconView margin rowCenterC">
+			<icon type="{{ type }}" size="{{ size }}" color="{{ color }}"> </icon>
+		</view>
+		<view bindtap="onChangeType" class="buttonView margin rowCenterC">
+			<text class="buttonText">改变type</text>
+		</view>
+		<view bindtap="onChangeSize" class="buttonView margin rowCenterC">
+			<text class="buttonText">改变size</text>
+		</view>
+		<view bindtap="onChangeColor" class="buttonView margin rowCenterC">
+			<text class="buttonText">改变color</text>
+		</view>
+	</view>
 </pageContainer>
