@@ -1,3 +1,27 @@
 <pageContainer headerTitle="text">
-	<view></view>
+	<view>
+		<view class="textView">
+			<text>能长按选中文字</text>
+			<text selectable="true">我是外层文字内容<text>我是内层文字内容</text></text>
+		</view>
+		<view class="textView">
+			<text>显示连续空格space</text>
+			<view>
+				<view><text>space为ensp</text></view>
+				<text space="ensp">前面文字    这里有四个空格</text>
+			</view>
+			<view>
+				<view><text>space为emsp</text></view>
+				<text space="emsp">前面文字    这里有四个空格</text>
+			</view>
+			<view>
+				<view><text>space为nbsp</text></view>
+				<text space="nbsp">前面文字    这里有四个空格</text>
+			</view>
+		</view>
+		<view class="textView">
+			<view><text>空格解码decode</text></view>
+			<text decode="true">前面文字&emsp;&emsp;&emsp;&emsp;这里有四个空格</text>
+		</view>
+	</view>
 </pageContainer>
