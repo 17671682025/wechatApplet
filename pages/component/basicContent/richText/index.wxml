@@ -1,2 +1,3 @@
-<!--pages/component/basicContent/richText/index.wxml-->
-<text>pages/component/basicContent/richText/index.wxml</text>
+<pageContainer headerTitle="rich-text">
+	<view></view>
+</pageContainer>

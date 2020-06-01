@@ -1,2 +1,3 @@
-<!--pages/component/basicContent/icon/index.wxml-->
-<text>pages/component/basicContent/icon/index.wxml</text>
+<pageContainer headerTitle="icon">
+	<view></view>
+</pageContainer>
