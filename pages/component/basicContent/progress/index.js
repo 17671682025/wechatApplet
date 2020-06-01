@@ -5,7 +5,29 @@ Page({
      * 页面的初始数据
      */
     data: {
+        // 百分比
+        percent:10,
+        // 是否显示进度条右侧的百分比
+        showInfo:true,
+        // 圆角大小
+        borderRadius:16,
+        // 右侧百分比文字大小
+        fontSize:'24rpx',
+        // 进度条线宽
+        strokeWidth:8,
+        // 进度条颜色 废弃
+        color:"gray",
 
+        // 已选择的进度条颜色
+        activeColor:"#19df00",
+        // 未选择进度条
+        backgroundColor:"#ccc",
+        // 进度条从左到右的动画
+        active:true,
+        // 动画延续播放方式
+        activeMode:'forwards',
+        // 进度条增加1%需要的毫秒数
+        duration:30,
     },
 
     /**
@@ -62,5 +84,11 @@ Page({
      */
     onShareAppMessage: function () {
 
+    },
+    /**
+     * 动画完成事件
+     */
+    onAnimatedFinish:function(){
+        
     }
 })

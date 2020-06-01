@@ -1,3 +1,21 @@
 <pageContainer headerTitle="progress">
-	<view></view>
+	<view>
+		<view class="progressView">
+			<progress
+				percent="{{ percent }}"
+				show-info="{{ showInfo }}"
+				border-radius="{{ borderRadius }}"
+				font-size="{{ fontSize }}"
+				stroke-width="{{strokeWidth}}"
+				activeColor="{{activeColor}}"
+				backgroundColor="{{backgroundColor}}"
+				active="{{active}}"
+				active-mode="{{activeMode}}"
+				duration="{{duration}}"
+			></progress>
+		</view>
+		<view bindtap="onChangeType" class="buttonView margin rowCenterC">
+			<text class="buttonText">改变百分比</text>
+		</view>
+	</view>
 </pageContainer>
