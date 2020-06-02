@@ -1,7 +1,7 @@
 <pageContainer headerTitle="text">
 	<view>
 		<view class="textView">
-			<text>能长按选中文字</text>
+			<view><text>能长按选中文字</text></view>
 			<text selectable="true">我是外层文字内容<text>我是内层文字内容</text></text>
 		</view>
 		<view class="textView">
