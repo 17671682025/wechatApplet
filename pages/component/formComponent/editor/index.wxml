@@ -1,2 +1,3 @@
-<!--pages/component/formComponent/editor/index.wxml-->
-<text>pages/component/formComponent/editor/index.wxml</text>
+<pageContainer headerTitle="editor">
+  <view></view>
+</pageContainer>

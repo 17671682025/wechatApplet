@@ -1,2 +1,3 @@
-<!--pages/component/formComponent/pickerViewColumn/index.wxml-->
-<text>pages/component/formComponent/pickerViewColumn/index.wxml</text>
+<pageContainer headerTitle="pick-view-column">
+  <view></view>
+</pageContainer>

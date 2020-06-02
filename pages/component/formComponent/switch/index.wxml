@@ -1,2 +1,3 @@
-<!--pages/component/formComponent/switch/index.wxml-->
-<text>pages/component/formComponent/switch/index.wxml</text>
+<pageContainer headerTitle="switch">
+  <view></view>
+</pageContainer>

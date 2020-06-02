@@ -1,1 +1,329 @@
-/* pages/component/formComponent/checkbox/index.wxss */
+/**app.less**/
+page {
+  height: 100%;
+  background-color: #f3f5f6;
+}
+.container {
+  height: 100%;
+  box-sizing: border-box;
+}
+/* 文字样式 */
+.mainTitleText {
+  font-size: 32rpx;
+  color: rgba(0, 0, 0, 0.85);
+}
+.titleText {
+  font-size: 28rpx;
+  color: rgba(0, 0, 0, 0.65);
+}
+.subText {
+  font-size: 24rpx;
+  color: rgba(0, 0, 0, 0.45);
+}
+.outStandingText {
+  font-size: 24rpx;
+  color: #0938F7;
+}
+.bold {
+  font-weight: 700;
+}
+/* 边框样式 */
+.bottomBorder {
+  border-bottom: 1rpx solid #e5e5e5;
+}
+/* flex布局部分 */
+.flex1 {
+  flex: 1;
+}
+/* 主轴横向 主轴start  侧轴start */
+.rowStartS {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/* 主轴横向 主轴start 侧轴center */
+.rowStartC {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* 主轴横向 主轴start 侧轴end */
+.rowStartE {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+/* 主轴横向 主轴start 侧轴stretch */
+.rowStartStretch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+/* 主轴横向 主轴center  侧轴start */
+.rowCenterS {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* 主轴横向 主轴center 侧轴center */
+.rowCenterC {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+/* 主轴横向 主轴center 侧轴end */
+.rowCenterE {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* 主轴横向 主轴center 侧轴stretch */
+.rowCenterStretch {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: stretch;
+}
+/* 主轴横向 主轴end  侧轴start */
+.rowEndS {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+/* 主轴横向 主轴end 侧轴center */
+.rowEndC {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* 主轴横向 主轴end 侧轴end */
+.rowEndE {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+/* 主轴横向 主轴end 侧轴stretch */
+.rowEndStretch {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+/* 主轴横向 主轴space-between  侧轴start */
+.rowSbS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* 主轴横向 主轴space-between 侧轴center */
+.rowSbC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 主轴横向 主轴space-between 侧轴end */
+.rowSbE {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/* 主轴横向 主轴space-between 侧轴stretch */
+.rowSbStretch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+/* 主轴横向 主轴space-around  侧轴start */
+.rowSaS {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+/* 主轴横向 主轴space-around 侧轴center */
+.rowSaC {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+/* 主轴横向 主轴space-around 侧轴end */
+.rowSaE {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+/* 主轴横向 主轴space-around 侧轴stretch */
+.rowSaStretch {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: stretch;
+}
+/* 主轴纵向 主轴start  侧轴start */
+.columnStartS {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+/* 主轴纵向 主轴start 侧轴center */
+.columnStartC {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+/* 主轴纵向 主轴start 侧轴end */
+.columnStartE {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+/* 主轴纵向 主轴start 侧轴stretch */
+.columnStartStretch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+/* 主轴纵向 主轴center  侧轴start */
+.columnCenterS {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+/* 主轴纵向 主轴center 侧轴center */
+.columnCenterC {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* 主轴纵向 主轴center 侧轴end */
+.columnCenterE {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+/* 主轴纵向 主轴center 侧轴stretch */
+.columnCenterStretch {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+}
+/* 主轴纵向 主轴end  侧轴start */
+.columnEndS {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+/* 主轴纵向 主轴end 侧轴center */
+.columnEndC {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+/* 主轴纵向 主轴end 侧轴end */
+.columnEndE {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+/* 主轴纵向 主轴end 侧轴stretch */
+.columnEndStretch {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: stretch;
+}
+/* 主轴纵向 主轴space-between  侧轴start */
+.columnSbS {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+/* 主轴纵向 主轴space-between 侧轴center */
+.columnSbC {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+/* 主轴纵向 主轴space-between 侧轴end */
+.columnSbE {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+/* 主轴纵向 主轴space-between 侧轴stretch */
+.columnSbStretch {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+}
+/* 主轴纵向 主轴space-around  侧轴start */
+.columnSaS {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+/* 主轴纵向 主轴space-around 侧轴center */
+.columnSaC {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+/* 主轴纵向 主轴space-around 侧轴end */
+.columnSaE {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-end;
+}
+/* 主轴纵向 主轴space-around 侧轴stretch */
+.columnSaStretch {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: stretch;
+}
+/* 换行(正向) */
+.flexWrap {
+  flex-wrap: wrap;
+}
+/* 不换行( */
+.noFlexWrap {
+  flex-wrap: nowrap;
+}
+/* 换行(反向) */
+.reverseFlexWrap {
+  flex-wrap: wrap-reverse;
+}

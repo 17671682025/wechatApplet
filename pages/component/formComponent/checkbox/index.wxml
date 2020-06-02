@@ -1,2 +1,3 @@
-<!--pages/component/formComponent/checkbox/index.wxml-->
-<text>pages/component/formComponent/checkbox/index.wxml</text>
+<pageContainer headerTitle="checkbox">
+  <view></view>
+</pageContainer>

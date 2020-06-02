@@ -1,2 +1,3 @@
-<!--pages/component/formComponent/button/index.wxml-->
-<text>pages/component/formComponent/button/index.wxml</text>
+<pageContainer headerTitle="button">
+  <view></view>
+</pageContainer>

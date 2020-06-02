@@ -1,2 +1,3 @@
-<!--pages/component/formComponent/pickerView/index.wxml-->
-<text>pages/component/formComponent/pickerView/index.wxml</text>
+<pageContainer headerTitle="picker-view">
+  <view></view>
+</pageContainer>

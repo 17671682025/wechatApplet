@@ -1,2 +1,3 @@
-<!--pages/component/formComponent/input/index.wxml-->
-<text>pages/component/formComponent/input/index.wxml</text>
+<pageContainer headerTitle="input">
+  <view></view>
+</pageContainer>

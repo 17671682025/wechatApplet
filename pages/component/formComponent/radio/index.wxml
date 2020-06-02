@@ -1,2 +1,3 @@
-<!--pages/component/formComponent/radio/index.wxml-->
-<text>pages/component/formComponent/radio/index.wxml</text>
+<pageContainer headerTitle="radio">
+  <view></view>
+</pageContainer>
