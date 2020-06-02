@@ -1,0 +1,7 @@
+{
+  "usingComponents": {},
+  "backgroundTextStyle": "light",
+  "navigationBarBackgroundColor": "#fff",
+  "navigationBarTitleText": "测试路由页面",
+  "navigationBarTextStyle": "black"
+}

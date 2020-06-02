@@ -1,2 +1,38 @@
-<!--pages/component/navigation/navigator/index.wxml-->
-<text>pages/component/navigation/navigator/index.wxml</text>
+<pageContainer headerTitle="navigator">
+	<view>
+		<navigator
+			class="navigator rowCenterC"
+			url="{{ url }}"
+			target="{{ target1 }}"
+			open-type="{{ openType }}"
+			hover-class="{{ hoverClass }}"
+			hover-stop-propagation="{{ hoverStopPropagation }}"
+			hover-start-time="400"
+			hover-stay-time="1000"
+		>
+			<text class="navigatorText">跳转本小程序的某个路由地址</text>
+		</navigator>
+		<navigator
+			class="navigator rowCenterC"
+			url="{{ url }}"
+			target="{{ target2 }}"
+			app-id="{{ appId }}"
+			path="{{ path }}"
+			extra-data="{{ extraData }}"
+			version="release"
+			open-type="{{ openType }}"
+			hover-class="{{ hoverClass }}"
+			hover-stop-propagation="{{ hoverStopPropagation }}"
+			hover-start-time="400"
+			hover-stay-time="1000"
+			bindsuccess="onSuccess"
+			bindfail="onFail"
+			bindcomplete="onComplete"
+		>
+			<text class="navigatorText">跳转其他小程序的某个路由地址</text>
+		</navigator>
+		<view class="navigator rowCenterC" bindtap="navigateMiniProgram">
+			<text class="navigatorText">通过js跳转其他小程序</text>
+		</view>
+	</view>
+</pageContainer>
