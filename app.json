@@ -176,5 +176,8 @@
     },
     "navigateToMiniProgramAppIdList": [
         "wxcd979b50c2a0d314"
-    ]
+    ],
+    "usingComponents":{
+        "pageContainer":"./base/component/compositeComponent/pageContainer/index"
+    }
 }

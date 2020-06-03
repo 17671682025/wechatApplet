@@ -1,2 +1,3 @@
-<!--pages/component/canvas/canvas/index.wxml-->
-<text>pages/component/canvas/canvas/index.wxml</text>
+<pageContainer headerTitle="canvas">
+  <view> </view>
+</pageContainer>

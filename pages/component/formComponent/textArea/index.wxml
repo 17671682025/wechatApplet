@@ -1,3 +1,7 @@
 <pageContainer headerTitle="textarea">
-  <view></view>
+	<view>
+		<view class="buttonView">
+			<button size="{{ size }}">按钮</button>
+		</view>
+	</view>
 </pageContainer>
