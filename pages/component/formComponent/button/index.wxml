@@ -1,3 +1,32 @@
 <pageContainer headerTitle="button">
-  <view></view>
+	<view>
+		<view class="buttonView rowCenterC">
+			<button
+				size="{{ size }}"
+				type="{{ type }}"
+				plain="{{ plain }}"
+				class="{{ classStyle }}"
+				disabled="{{ disabled }}"
+				loading="{{ loading }}"
+				form-type="{{ formType }}"
+				open-type="{{ openType }}"
+				hover-class="hoverClassStyle"
+				hover-stop-propagation="{{ hoverStopPropagation }}"
+				hover-start-time="{{ hoverStartTime }}"
+				hover-stay-time="{{ hoverStayTime }}"
+				lang="{{ lang }}"
+				session-from="{{ sessionFrom }}"
+				send-message-title="{{ sendMessageTitle }}"
+				send-message-path="{{ sendMessagePath }}"
+				send-message-img="{{ sendMessageImg }}"
+				app-parameter="{{ appParameter }}"
+				show-message-card="{{ showMessageCard }}"
+			>
+				按钮测试
+			</button>
+		</view>
+		<view>
+			<fullButton bind:onPress="onChangeSize" text="改变size的值"></fullButton>
+		</view>
+	</view>
 </pageContainer>

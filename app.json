@@ -178,6 +178,7 @@
         "wxcd979b50c2a0d314"
     ],
     "usingComponents":{
-        "pageContainer":"./base/component/compositeComponent/pageContainer/index"
+        "pageContainer":"./base/component/compositeComponent/pageContainer/index",
+        "fullButton": "./base/component/basicComponent/button/index"
     }
 }

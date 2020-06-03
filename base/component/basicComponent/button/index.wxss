@@ -1,0 +1,25 @@
+.audioView {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.button {
+  width: 100%;
+  height: 120rpx;
+  border-radius: 20rpx;
+  background-color: #0da;
+  margin-bottom: 30rpx;
+}
+
+.buttonText {
+  font-size: 32rpx;
+  color: #fff;
+  font-weight: 700;
+}
+
+.rowCenterC {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}

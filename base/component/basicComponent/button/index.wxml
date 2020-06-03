@@ -1,0 +1,3 @@
+<view bindtap="buttonPress" class="button rowCenterC">
+	<text class="buttonText">{{buttonText}}</text>
+</view>
