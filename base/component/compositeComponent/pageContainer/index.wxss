@@ -331,10 +331,13 @@ page {
 .viewComponentContainer {
   height: 100%;
   box-sizing: border-box;
+  margin-bottom: 30rpx;
 }
 .scrollView {
   min-height: 100%;
   box-sizing: border-box;
+}
+.bg {
   background-color: #ffffff;
 }
 .padH {

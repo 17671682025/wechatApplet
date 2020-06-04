@@ -40,14 +40,9 @@ Component({
 		 */
 		attached: function () {
 			const { text = '' } = this.properties;
-			this.setData(
-				{
-					buttonText: text,
-				},
-				() => {
-					console.log('onPressEvent', onPressEvent);
-				}
-			);
+			this.setData({
+				buttonText: text,
+			});
 		},
 	},
 });

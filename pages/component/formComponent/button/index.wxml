@@ -1,32 +1,83 @@
 <pageContainer headerTitle="button">
-	<view>
+	<scroll-view scroll-y="true">
 		<view class="buttonView rowCenterC">
 			<button
 				size="{{ size }}"
 				type="{{ type }}"
 				plain="{{ plain }}"
-				class="{{ classStyle }}"
 				disabled="{{ disabled }}"
 				loading="{{ loading }}"
 				form-type="{{ formType }}"
-				open-type="{{ openType }}"
-				hover-class="hoverClassStyle"
+				hover-class="buttonHover"
+				class="customerStyle"
 				hover-stop-propagation="{{ hoverStopPropagation }}"
 				hover-start-time="{{ hoverStartTime }}"
 				hover-stay-time="{{ hoverStayTime }}"
 				lang="{{ lang }}"
+			>
+				普通按钮
+			</button>
+		</view>
+		<view>
+			<fullButton bind:onPress="onChangeSize" text="改变size的值"></fullButton>
+			<fullButton bind:onPress="onChangeType" text="改变type的值"></fullButton>
+			<fullButton bind:onPress="onChangePlain" text="改变plain的值"></fullButton>
+			<fullButton bind:onPress="onChangeDisabled" text="改变disabled的值"></fullButton>
+			<fullButton bind:onPress="onChangeLoading" text="改变loading的值"></fullButton>
+			<fullButton bind:onPress="onChangeDisabled" text="自定义宽高"></fullButton>
+			<fullButton bind:onPress="onChangeLoading" text="自定义背景色文字颜色"></fullButton>
+			<fullButton bind:onPress="onChangeLoading" text="自定义hover样式"></fullButton>
+		</view>
+		<view class="buttonView rowCenterC">
+			<button
+				class="customerButtonStyle"
+				open-type="{{ openType }}"
+				hover-class="button-hover"
 				session-from="{{ sessionFrom }}"
 				send-message-title="{{ sendMessageTitle }}"
 				send-message-path="{{ sendMessagePath }}"
 				send-message-img="{{ sendMessageImg }}"
 				app-parameter="{{ appParameter }}"
 				show-message-card="{{ showMessageCard }}"
+				bindcontact="onContact"
 			>
-				按钮测试
+				会话按钮测试
 			</button>
 		</view>
-		<view>
-			<fullButton bind:onPress="onChangeSize" text="改变size的值"></fullButton>
+		<view class="buttonView rowCenterC">
+			<button
+				class="{{ classStyle }}"
+				open-type="{{ openType2 }}"
+				app-parameter="{{ appParameter }}"
+				bindlaunchapp="onLaunchApp"
+			>
+				relaunch按钮测试
+			</button>
 		</view>
-	</view>
+		<view class="buttonView rowCenterC">
+			<button open-type="{{ openType3 }}">
+				share按钮测试
+			</button>
+		</view>
+		<view class="buttonView rowCenterC">
+			<button open-type="{{ openType4 }}" bindgetphonenumber="onGetPhoneNumber">
+				getPhoneNumber按钮测试
+			</button>
+		</view>
+		<view class="buttonView rowCenterC">
+			<button open-type="{{ openType5 }}" bindgetuserinfo="onGetUserInfo">
+				getUserInfo按钮测试
+			</button>
+		</view>
+		<view class="buttonView rowCenterC">
+			<button open-type="{{ openType6 }}" bindopensetting="onOpenSetting">
+				openSetting按钮测试
+			</button>
+		</view>
+			<view class="buttonView rowCenterC">
+			<button open-type="{{ openType7 }}">
+				feedback按钮测试
+			</button>
+		</view>
+	</scroll-view>
 </pageContainer>
