@@ -327,3 +327,7 @@ page {
 .reverseFlexWrap {
   flex-wrap: wrap-reverse;
 }
+.switchView {
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+}

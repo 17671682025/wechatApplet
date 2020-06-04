@@ -5,13 +5,13 @@ Page({
 	 */
 	data: {
 		// radio标识
-		value: "{checked:true,index:0}",
+		value: '{checked:true,index:0}',
 		// 当前是否选中
-        checked:false,
-        // 是否禁用
-        disabled:false,
-        // 选中颜色
-        color:"#19df40"
+		checked: false,
+		// 是否禁用
+		disabled: false,
+		// 选中颜色
+		color: '#19df40',
 	},
 
 	/**

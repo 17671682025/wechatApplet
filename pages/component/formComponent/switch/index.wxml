@@ -1,3 +1,14 @@
 <pageContainer headerTitle="switch">
-  <view></view>
+	<view>
+		<view class="switchView">
+			<switch
+				class=""
+				checked="{{ checked }}"
+				type="{{ type }}"
+				disabled="{{ disabled }}"
+				bindchange="onSwitchChange"
+			>
+			</switch>
+		</view>
+	</view>
 </pageContainer>
