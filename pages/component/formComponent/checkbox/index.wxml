@@ -1,3 +1,14 @@
 <pageContainer headerTitle="checkbox">
-  <view></view>
+	<view>
+		<view class="checkboxView">
+			<checkbox-group bindchange="onChange">
+				<checkbox
+					value="{{ value }}"
+					disabled="{{ disabled }}"
+					checked="{{ checked }}"
+					color="{{ color }}"
+				></checkbox>
+			</checkbox-group>
+		</view>
+	</view>
 </pageContainer>

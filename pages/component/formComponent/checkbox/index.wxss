@@ -327,3 +327,7 @@ page {
 .reverseFlexWrap {
   flex-wrap: wrap-reverse;
 }
+.checkboxView {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
