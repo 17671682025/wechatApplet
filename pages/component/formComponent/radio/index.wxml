@@ -1,3 +1,18 @@
 <pageContainer headerTitle="radio">
-  <view></view>
+	<view>
+		<view class="radioView">
+			<radio-group bindchange="onChange">
+				<label for="radio">
+					<radio
+						id="radio"
+						value="{{ value }}"
+						checked="{{ checked }}"
+						disabled="{{ disabled }}"
+						color="{{ color }}"
+					></radio>
+					label文字
+				</label>
+			</radio-group>
+		</view>
+	</view>
 </pageContainer>
