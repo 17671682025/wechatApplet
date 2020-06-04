@@ -163,4 +163,32 @@ Page({
 			confirmType,
 		});
 	},
+	/**
+	 * 是否开启 focus页面自动上浮
+	 */
+	onAdjustPosition: function () {
+		let adjustPosition = false;
+		if (this.data.adjustPosition === false) {
+			adjustPosition = true;
+		} else {
+			adjustPosition = false;
+		}
+		this.setData({
+			adjustPosition,
+		});
+	},
+	/**
+	 * focus时 是否点击页面其他部分 失去焦点
+	 */
+	onHoldKeyBoard: function () {
+		let holdKeyBoard = false;
+		if (this.data.holdKeyBoard === false) {
+			holdKeyBoard = true;
+		} else {
+			holdKeyBoard = false;
+		}
+		this.setData({
+			holdKeyBoard,
+		});
+	},
 });

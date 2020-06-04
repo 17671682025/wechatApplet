@@ -327,3 +327,21 @@ page {
 .reverseFlexWrap {
   flex-wrap: wrap-reverse;
 }
+.textAreaView {
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+}
+.textArea {
+  width: 100%;
+  min-height: 180rpx;
+  border: 1px solid #cf0;
+  border-radius: 10rpx;
+  padding: 8px;
+}
+.marginClass {
+  margin-bottom: 30rpx;
+}
+.placeholderClass {
+  font-size: 28rpx;
+  color: rgba(200, 200, 200, 0.3);
+}

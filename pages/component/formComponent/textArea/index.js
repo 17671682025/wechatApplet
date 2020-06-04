@@ -4,29 +4,26 @@ Page({
 	 * 页面的初始数据
 	 */
 	data: {
-		// 按钮大小
-		size: 'default',
-		// 按钮样式类型
-		type: 'default',
-		// 按钮是否镂空 背景色透明
-		plain:true,
-		// 是否禁用
-		disables:false,
-		// 名称前是否带loading图标
-		loading:false,
-		// 用于form组件 点击分别触发form组件的submit和reset事件
-		formType:"",
-		// 微信开放能力
-		openType:'',
-		// 指定按钮按下去的样式
-		hoverClass:"",
-		// 是否阻止祖先元素出现点击态
-		hoverStopPropagation:true,
-		// 按住多少毫秒出现点击态
-		hoverStartTime:20,
-		// 手指松开后点击态保持多久
-		hoverStayTime:200,
-		// 
+		// 输入框的值
+		value: '我是TEXTAREA输入框内容',
+		// 输入框类型
+		type: 'text',
+		// 输入框为空的提示语
+		placeholder: '输入框空了，赶紧输入',
+		// 最大长度
+		maxLength: 140,
+		// 光标与键盘的距离
+		cursorSpacing: 30,
+		// 设置光标位置
+		cursor: 10,
+		// 键盘弹起时，是否上浮页面
+		adjustPosition: true,
+		// 获取焦点 点击页面是否收起键盘
+		holdKeyBoard: true,
+		// 选择文字时的光标开始位置
+		selectionStart: 3,
+		// 选择文字状态的光标的结束位置
+		selectionEnd: 13,
 	},
 
 	/**
@@ -68,4 +65,90 @@ Page({
 	 * 用户点击右上角分享
 	 */
 	onShareAppMessage: function () {},
+	/**
+	 * 修改最大长度
+	 */
+	onChangeMaxLength: function () {
+		let maxLength = 0;
+		if (this.data.maxLength === 18) {
+			maxLength = 36;
+		} else {
+			maxLength = 18;
+		}
+		this.setData({
+			maxLength,
+		});
+	},
+	/**
+	 * 修改键盘和输入框的距离
+	 */
+	onChangeCursorSpacing: function () {
+		let cursorSpacing = 0;
+		if (this.data.cursorSpacing === 30) {
+			cursorSpacing = 500;
+		} else {
+			cursorSpacing = 30;
+		}
+		this.setData({
+			cursorSpacing,
+		});
+	},
+	/**
+	 * 是否开启 focus页面自动上浮
+	 */
+	onAdjustPosition: function () {
+		let adjustPosition = false;
+		if (this.data.adjustPosition === false) {
+			adjustPosition = true;
+		} else {
+			adjustPosition = false;
+		}
+		this.setData({
+			adjustPosition,
+		});
+	},
+	/**
+	 * focus时 是否点击页面其他部分 失去焦点
+	 */
+	onHoldKeyBoard: function () {
+		let holdKeyBoard = false;
+		if (this.data.holdKeyBoard === false) {
+			holdKeyBoard = true;
+		} else {
+			holdKeyBoard = false;
+		}
+		this.setData({
+			holdKeyBoard,
+		});
+	},
+	/**
+	 * 当行数发生时触发的函数
+	 */
+	onLineChange: function (RES) {
+		console.log('onLineChange', RES);
+	},
+	/**
+	 * 输入框输入触发函数
+	 */
+	onInput: function (RES) {
+		console.log('onInput', RES);
+	},
+	/**
+	 * 输入框焦点聚焦时候触发
+	 */
+	onFocus: function (RES) {
+		console.log('onFocus', RES);
+	},
+	/**
+	 * 输入框失去焦点触发函数
+	 */
+	onBlur: function (RES) {
+		console.log('onBlur', RES);
+	},
+	/**
+	 * 挡箭盘高度发生变化时触发函数
+	 */
+	onKeyBoardHeightChange: function (RES) {
+		console.log('onKeyBoardHeightChange', RES);
+	},
 });

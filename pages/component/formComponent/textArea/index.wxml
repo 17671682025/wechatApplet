@@ -1,7 +1,33 @@
-<pageContainer headerTitle="textarea">
+<pageContainer headerTitle="input">
 	<view>
-		<view class="buttonView">
-			<button size="{{ size }}">按钮</button>
+		<view class="textAreaView">
+			<text>textArea</text>
+			<textarea
+				class="marginClass textArea"
+				value="{{ value }}"
+				placeholder="{{ placeholder }}"
+				adjust-position="{{ adjustPosition }}"
+				placeholder-class="placeholderClass"
+				focus="true"
+				auto-height="true"
+				fixed="false"
+				show-confirm-bar="true"
+				cursor="{{ cursor }}"
+				cursor-spacing="{{ cursorSpacing }}"
+				maxlength="{{ maxLength }}"
+				hold-keyboard="{{ holdKeyBoard }}"
+				adjust-position="{{ adjustPosition }}"
+				bindinput="onInput"
+				bindfocus="onFocus"
+				bindblur="onBlur"
+				bindconfirm="onConfirm"
+				bindlinechange="onLineChange"
+				bindkeyboardheightchange="onKeyBoardHeightChange"
+			></textarea>
+			<fullButton bind:onPress="onChangeMaxLength" text="改变maxLength的值"></fullButton>
+			<fullButton bind:onPress="onChangeCursorSpacing" text="改变光标与键盘的距离"></fullButton>
+			<fullButton bind:onPress="onAdjustPosition" text="是否自动上浮页面"></fullButton>
+			<fullButton bind:onPress="onHoldKeyBoard" text="focus,点击页面是否收起键盘"></fullButton>
 		</view>
 	</view>
 </pageContainer>
