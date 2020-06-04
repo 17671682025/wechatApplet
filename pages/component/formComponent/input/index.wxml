@@ -1,3 +1,35 @@
 <pageContainer headerTitle="input">
-  <view></view>
+	<view>
+		<view class="inputView">
+			<text>普通输入框</text>
+			<input
+				class="marginClass"
+				type="{{ type }}"
+				value="{{ value }}"
+				placeholder="{{ placeholder }}"
+				adjust-position="{{ adjustPosition }}"
+				placeholder-class="placeholderClass"
+				focus="true"
+				cursor="{{ cursor }}"
+				cursor-spacing="{{ cursorSpacing }}"
+				confirm-type="{{ confirmType }}"
+				maxlength="{{ maxLength }}"
+				confirm-hold="{{ confirmHold }}"
+				hold-keyboard="{{ holdKeyBoard }}"
+				adjust-position="{{ adjustPosition }}"
+				bindinput="onInput"
+				bindfocus="onFocus"
+				bindblur="onBlur"
+				bindconfirm="onConfirm"
+				bindkeyboardheightchange="onKeyBoardHeightChange"
+			/>
+			<fullButton bind:onPress="onChangeMaxLength" text="改变maxLength的值"></fullButton>
+			<fullButton bind:onPress="onChangeType" text="切换输入框类型"></fullButton>
+			<fullButton bind:onPress="onChangeCursorSpacing" text="改变光标与键盘的距离"></fullButton>
+			<fullButton bind:onPress="onChangeConfirmType" text="设置confirm-type的值"></fullButton>
+			<fullButton bind:onPress="onChangeConfirmHold" text="点击键盘右下角按钮时是否保持键盘不收起"></fullButton>
+			<fullButton bind:onPress="onAdjustPosition" text="是否自动上浮页面"></fullButton>
+			<fullButton bind:onPress="onHoldKeyBoard" text="focus,点击页面是否收起键盘"></fullButton>
+		</view>
+	</view>
 </pageContainer>
