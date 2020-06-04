@@ -1,3 +1,20 @@
 <pageContainer headerTitle="slider">
-  <view></view>
+	<view>
+		<view class="sliderView">
+			<slider
+				min="{{ min }}"
+				max="{{ max }}"
+				step="{{ step }}"
+				disabled="{{ disabled }}"
+				value="{{ value }}"
+        activeColor="{{ activeColor }}"
+        backgroundColor="{{backgroundColor}}"
+        block-size="{{blockSize}}"
+        block0color="{{blockColor}}"
+        show-value="{{showValue}}"
+        bindchange="onBlockChange"
+        bindchanging="onBlockChanging"
+			></slider>
+		</view>
+	</view>
 </pageContainer>
