@@ -327,3 +327,13 @@ page {
 .reverseFlexWrap {
   flex-wrap: wrap-reverse;
 }
+.editorView {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.editor {
+  border: 1px solid #ccc;
+  margin-top: 15rpx;
+  padding: 10;
+  border-radius: 10rpx;
+}

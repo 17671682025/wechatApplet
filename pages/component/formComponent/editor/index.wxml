@@ -1,3 +1,21 @@
 <pageContainer headerTitle="editor">
-  <view></view>
+	<view>
+		<view class="editorView">
+			<text>文字模式</text>
+      <editor
+        class="editor"
+				placeholder="{{ placeholder }}"
+				read-only="{{ readOnly }}"
+				bindready="onReady"
+				bindfocus="onFocus"
+				bindblur="onBlur"
+				bindinput="onInput"
+				bindstatuschange="onStatusChange"
+			></editor>
+		</view>
+		<view class="editorView">
+			<text>图片模式</text>
+			<editor class="editor"></editor>
+		</view>
+	</view>
 </pageContainer>
