@@ -1,3 +1,55 @@
 <pageContainer headerTitle="form">
-  <view></view>
+	<view>
+		<view class="formView">
+			<form action="" bindsubmit="onSubmit" bindreset="onReset">
+				<view class="inputItem">
+					<view class="labelText">
+						<text>昵称</text>
+					</view>
+					<input class="input" type="text" name="username" />
+				</view>
+				<view class="inputItem">
+					<view class="labelText">
+						<text>手机号</text>
+					</view>
+					<input class="input" maxlength="11" type="text" name="phone" />
+				</view>
+				<view class="inputItem">
+					<view class="labelText">
+						<text>性别</text>
+					</view>
+					<radio-group name="sex">
+						<label for="man">
+							<radio id="man" value='radio1'></radio>
+							<text>男</text>
+						</label>
+						<label for="woman">
+							<radio id="woman" value='radio2'></radio>
+							<text>女</text>
+						</label>
+					</radio-group>
+				</view>
+				<view class="inputItem">
+					<view class="labelText">
+						<text>是否显示手机号</text>
+					</view>
+					<view>
+						<switch name="showPhone"></switch>
+					</view>
+				</view>
+				<view class="inputItem">
+					<view class="labelText">
+						<text>年龄</text>
+					</view>
+					<slider name="age" min="18" max="100" show-value="true"></slider>
+				</view>
+				<View class="labelText">
+					<button formType="submit">提交</button>
+				</View>
+				<View class="labelText">
+					<button formType="reset">复位</button>
+				</View>
+			</form>
+		</view>
+	</view>
 </pageContainer>
