@@ -1,4 +1,8 @@
 /**app.less**/
+.pickView {
+  margin-bottom: 30rpx;
+  margin-top: 30rpx;
+}
 page {
   height: 100%;
   background-color: #f3f5f6;

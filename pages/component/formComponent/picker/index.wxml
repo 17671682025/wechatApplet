@@ -1,3 +1,81 @@
 <pageContainer headerTitle="picker">
-  <view></view>
+	<view>
+		<view class="pickView selector">
+			<view><text>mode='selector'选择器</text></view>
+			<picker
+				range="{{ objectArray }}"
+				range-key="value"
+				value="{{ selectorValue }}"
+				bindchange="onSelectorChange"
+			>
+				<view>
+					<text>当前选择的是：{{ objectArray[selectorValue].value }}</text>
+				</view>
+			</picker>
+		</view>
+		<view class="pickView multiSelector">
+			<view><text>mode='multiSelector'选择器</text></view>
+			<picker
+				range="{{ objectMultiArray }}"
+				mode="multiSelector"
+				range-key="name"
+				value="{{ multiSelectorValue }}"
+				bindchange="onMultiSelectorChange"
+				bindcolumnchange="onMultiSelectorColumnChange"
+			>
+				<view>
+					<text
+						>当前选择的是：{{ multiSelectorRange[0][multiSelectorValue[0]]
+						}}{{ multiSelectorRange[1][multiSelectorValue[1]]
+						}}{{ multiSelectorRange[2][multiSelectorValue[2]] }}</text
+					>
+				</view></picker
+			>
+		</view>
+		<view class="pickView time">
+			<view><text>mode='time'选择器</text></view>
+			<picker
+				mode="time"
+				start="{{ startTime }}"
+				end="{{ endTime }}"
+				value="{{ selectTime }}"
+				bindchange="onTimeSelectorChange"
+			>
+				<view>
+					<text>当前选择的是：{{ selectTime }}</text>
+				</view>
+			</picker>
+		</view>
+		<view class="pickView date">
+			<view><text>mode='date'选择器</text></view>
+			<picker
+				mode="date"
+				start="{{ startDate }}"
+				end="{{ endDate }}"
+				value="{{ selectDate }}"
+				fields="{{ fields }}"
+				bindchange="onDateSelectorChange"
+			>
+				<view>
+					<text>当前选择的是：{{ selectDate }}</text>
+				</view>
+			</picker>
+		</view>
+		<view class="pickView region">
+			<view><text>mode='region'选择器</text></view>
+			<picker
+				mode="region"
+				custom-item="{{ customItem }}"
+				value="{{ region }}"
+				bindchange="onRegionSelectorChange"
+			>
+				<view>
+					<text>当前选择的是：{{ region[0] }}{{ region[1] }}{{ region[2] }}</text>
+				</view>
+				<view>
+					<text>地理code码的是：{{ code }}</text>
+				</view>
+			</picker>
+		</view>
+	</view>
 </pageContainer>
