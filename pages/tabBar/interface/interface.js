@@ -14,15 +14,23 @@ Page({
      */
     onLoad: function (options) {
 	console.log('MockData', MockData);
-		this.setData({
-			openInterFaceSource: MockData.interface.interfaceObj.openInterFace,
+        this.setData({
+			basicSource: MockData.interface.interfaceObj.basic,
+			routerSource: MockData.interface.interfaceObj.router,
 			pageSource: MockData.interface.interfaceObj.page,
-			deviceSource: MockData.interface.interfaceObj.device,
 			networkSource: MockData.interface.interfaceObj.network,
+			dataCacheSource: MockData.interface.interfaceObj.dataCache,
 			mediaSource: MockData.interface.interfaceObj.media,
 			positionSource: MockData.interface.interfaceObj.position,
-			dataSource: MockData.interface.interfaceObj.data,
-			multiThreadSource: MockData.interface.interfaceObj.multiThread,
+			forwardSource: MockData.interface.interfaceObj.forward,
+			canvasSource: MockData.interface.interfaceObj.canvas,
+			fileSource: MockData.interface.interfaceObj.file,
+			openInterFaceSource: MockData.interface.interfaceObj.openInterFace,
+			deviceSource: MockData.interface.interfaceObj.device,
+			workerSource: MockData.interface.interfaceObj.worker,
+			thirdSource: MockData.interface.interfaceObj.third,
+			WXMLSource: MockData.interface.interfaceObj.WXML,
+			adSource: MockData.interface.interfaceObj.ad,
 		});
     },
 

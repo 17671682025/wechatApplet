@@ -58,14 +58,22 @@ let extendComponentObj = {
 
 // 官方接口
 let interfaceObj = {
-  openInterFace: createDataSource(Routers.interFace.interfaceOpenInterFaceRouter),
-  page: createDataSource(Routers.interFace.interfacePageRouter),
-  device: createDataSource(Routers.interFace.interfaceDeviceRouter),
-  network: createDataSource(Routers.interFace.interfaceNetworkRouter),
-  media: createDataSource(Routers.interFace.interfaceMediaRouter),
-  position: createDataSource(Routers.interFace.interfacePositionRouter),
-  data: createDataSource(Routers.interFace.interfaceDataRouter),
-  multiThread: createDataSource(Routers.interFace.interfaceMultiThreadRouter),
+	basic: createDataSource(Routers.interFace.interfaceBasicRouter),
+	router: createDataSource(Routers.interFace.interfaceRouterObj),
+	page: createDataSource(Routers.interFace.interfacePageRouter),
+	network: createDataSource(Routers.interFace.interfaceNetworkRouter),
+	dataCache: createDataSource(Routers.interFace.interfaceDataCacheRouter),
+	media: createDataSource(Routers.interFace.interfaceMediaRouter),
+	position: createDataSource(Routers.interFace.interfacePositionRouter),
+	forward: createDataSource(Routers.interFace.interfaceForwardRouter),
+	canvas: createDataSource(Routers.interFace.interfaceCanvasRouter),
+	file: createDataSource(Routers.interFace.interfaceFileRouter),
+	openInterFace: createDataSource(Routers.interFace.interfaceOpenInterFaceRouter),
+	device: createDataSource(Routers.interFace.interfaceDeviceRouter),
+	worker: createDataSource(Routers.interFace.interfaceWorkerRouter),
+	third: createDataSource(Routers.interFace.interfaceThirdPartyPlatformRouter),
+	WXML: createDataSource(Routers.interFace.interfaceWXMLRouter),
+	ad: createDataSource(Routers.interFace.interfaceAdRouter),
 };
 
 // 云开发

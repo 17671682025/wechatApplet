@@ -1,20 +1,28 @@
 <!--pages/tarBar/api.wxml-->
 <view class="container p20 columnStartC">
-  <view class="headerBox rowCenterC">
-    <text class="subText lineHeight  alignCenter">
-      以下将演示小程序接口能力，具体参数详见<text class="outStandingText">小程序开发文档</text>
-    </text>
-  </view>
-  <view class="wrap flex1 columnStartC">
-    <view class="wrap menuWrap">
-      <menu coverText="开放接口" coverIcon='右边图片' menuSource="{{openInterFaceSource}}"></menu>
-      <menu coverText="界面" coverIcon='右边图片' menuSource="{{pageSource}}"></menu>
-      <menu coverText="设备" coverIcon='右边图片' menuSource="{{deviceSource}}"></menu>
-      <menu coverText="网络" coverIcon='右边图片' menuSource="{{networkSource}}"></menu>
-      <menu coverText="媒体" coverIcon='右边图片' menuSource="{{mediaSource}}"></menu>
-      <menu coverText="位置" coverIcon='右边图片' menuSource="{{positionSource}}"></menu>
-      <menu coverText="数据" coverIcon='右边图片' menuSource="{{dataSource}}"></menu>
-      <menu coverText="多线程" coverIcon='右边图片' menuSource="{{multiThreadSource}}"></menu>
-    </view>
-  </view>
+	<view class="headerBox rowCenterC">
+		<text class="subText lineHeight alignCenter">
+			以下将演示小程序接口能力，具体参数详见<text class="outStandingText">小程序开发文档</text>
+		</text>
+	</view>
+	<view class="wrap flex1 columnStartC">
+		<view class="wrap menuWrap">
+			<menu coverText="基础" coverIcon="右边图片" menuSource="{{ basicSource }}"></menu>
+			<menu coverText="路由" coverIcon="右边图片" menuSource="{{ routerSource }}"></menu>
+			<menu coverText="界面" coverIcon="右边图片" menuSource="{{ pageSource }}"></menu>
+			<menu coverText="网络" coverIcon="右边图片" menuSource="{{ networkSource }}"></menu>
+			<menu coverText="数据缓存" coverIcon="右边图片" menuSource="{{ dataCacheSource }}"></menu>
+			<menu coverText="媒体" coverIcon="右边图片" menuSource="{{ mediaSource }}"></menu>
+			<menu coverText="位置" coverIcon="右边图片" menuSource="{{ positionSource }}"></menu>
+			<menu coverText="转发" coverIcon="右边图片" menuSource="{{ forwardSource }}"></menu>
+			<menu coverText="画布" coverIcon="右边图片" menuSource="{{ canvasSource }}"></menu>
+			<menu coverText="文件" coverIcon="右边图片" menuSource="{{ fileSource }}"></menu>
+			<menu coverText="开放接口" coverIcon="右边图片" menuSource="{{ openInterFaceSource }}"></menu>
+      <menu coverText="设备" coverIcon="右边图片" menuSource="{{ deviceSource }}"></menu>
+      <menu coverText="worker" coverIcon="右边图片" menuSource="{{ dataSource }}"></menu>
+			<menu coverText="广告" coverIcon="右边图片" menuSource="{{ workerSource }}"></menu>
+			<menu coverText="第三方平台" coverIcon="右边图片" menuSource="{{ thirdSource }}"></menu>
+			<menu coverText="广告" coverIcon="右边图片" menuSource="{{ adSource }}"></menu>
+		</view>
+	</view>
 </view>
