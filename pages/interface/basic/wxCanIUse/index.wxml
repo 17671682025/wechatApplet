@@ -1,6 +1,10 @@
-
-<pageContainer headerTitle="wx.canIUse">
-  <view>
-    <desc text="含义：判断小程序的api、回调、参数、组件等在当前版本是否有效"></desc>
-  </view>
+<pageContainer headerTitle="wx.canIUse(string schema)">
+	<view>
+		<desc text="含义：判断小程序的api、回调、参数、组件等在当前版本是否有效"></desc>
+		<boldText title="参数"></boldText>
+		<boldText title="string schema"></boldText>
+		<desc
+			text="使用 ${API}.${method}.${param}.${option} 或者 ${component}.${attribute}.${option} 方式来调用"
+		></desc>
+	</view>
 </pageContainer>

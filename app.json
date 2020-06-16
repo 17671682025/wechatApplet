@@ -392,6 +392,7 @@
     "usingComponents": {
         "pageContainer": "./base/component/compositeComponent/pageContainer/index",
         "fullButton": "./base/component/basicComponent/button/index",
-        "desc": "./base/component/basicComponent/desc/index"
+        "desc": "./base/component/basicComponent/desc/index",
+        "boldText": "./base/component/basicComponent/boldText/index"
     }
 }

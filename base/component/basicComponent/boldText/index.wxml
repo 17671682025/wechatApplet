@@ -1,0 +1,3 @@
+<view wx:if="{{title}}" class="titleContainer">
+  <text class="titleStyle">{{title}}</text>
+</view>

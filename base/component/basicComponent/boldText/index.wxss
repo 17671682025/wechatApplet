@@ -1,0 +1,10 @@
+.titleContainer {
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+
+.titleStyle {
+  font-size: 28rpx;
+  color: rgb(34, 34, 34);
+  font-weight: 700;
+}
