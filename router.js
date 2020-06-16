@@ -134,6 +134,16 @@ let interfaceBasicRouter = [
 	{ routerName: 'wx.onUnhandledRejection', routerPath: `${interfacePath}basic/onUnhandledRejection/index` },
 	{ routerName: 'wx.onThemeChange', routerPath: `${interfacePath}basic/onThemeChange/index` },
 	{ routerName: 'wx.onPageNotFound', routerPath: `${interfacePath}basic/onPageNotFound/index` },
+
+	{ routerName: 'wx.onError', routerPath: `${interfacePath}basic/onError/index` },
+	{ routerName: 'wx.onAudioInterruptionEnd', routerPath: `${interfacePath}basic/onAudioInterruptionEnd/index` },
+	{ routerName: 'wx.onAudioInterruptionBegin', routerPath: `${interfacePath}basic/onAudioInterruptionBegin/index` },
+	{ routerName: 'wx.onAppShow', routerPath: `${interfacePath}basic/onAppShow/index` },
+	{ routerName: 'wx.onAppHide', routerPath: `${interfacePath}basic/onAppHide/index` },
+	{ routerName: 'wx.offUnhandledRejection', routerPath: `${interfacePath}basic/offUnhandledRejection/index` },
+	{ routerName: 'wx.offThemeChange', routerPath: `${interfacePath}basic/offThemeChange/index` },
+	{ routerName: 'wx.offPageNotFound', routerPath: `${interfacePath}basic/offPageNotFound/index` },
+	
 	{ routerName: 'wx.offError', routerPath: `${interfacePath}basic/offError/index` },
 	{ routerName: 'wx.offAudioInterruptionEnd', routerPath: `${interfacePath}basic/offAudioInterruptionEnd/index` },
 	{ routerName: 'wx.offAudioInterruptionBegin', routerPath: `${interfacePath}basic/offAudioInterruptionBegin/index` },

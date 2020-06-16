@@ -1,2 +1,5 @@
-<!--pages/interface/basic/getLaunchOptionSync/index.wxml-->
-<text>pages/interface/basic/getLaunchOptionSync/index.wxml</text>
+<pageContainer headerTitle="wx.getLaunchOptionsSync()">
+	<view>
+	
+	</view>
+</pageContainer>

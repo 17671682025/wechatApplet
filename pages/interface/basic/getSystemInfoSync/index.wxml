@@ -1,2 +1,6 @@
-<!--pages/interface/basic/getSystemInfoSync/index.wxml-->
-<text>pages/interface/basic/getSystemInfoSync/index.wxml</text>
+<pageContainer headerTitle="wx.getSystemInfoSync()">
+	<view>
+	
+	</view>
+</pageContainer>
+

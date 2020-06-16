@@ -1,2 +1,5 @@
-<!--pages/interface/basic/getSystemInfo/index.wxml-->
-<text>pages/interface/basic/getSystemInfo/index.wxml</text>
+<pageContainer headerTitle="wx.getSystemInfo(Object object)">
+	<view>
+	
+	</view>
+</pageContainer>

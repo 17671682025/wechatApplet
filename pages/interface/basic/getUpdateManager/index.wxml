@@ -1,2 +1,6 @@
-<!--pages/interface/basic/getUpdateManager/index.wxml-->
-<text>pages/interface/basic/getUpdateManager/index.wxml</text>
+<pageContainer headerTitle="wx.getUpdateManager()">
+	<view>
+	
+	</view>
+</pageContainer>
+

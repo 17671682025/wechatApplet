@@ -12,7 +12,9 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        let arrayBuffer =new Uint8Array([77, 77, 77]);
+        let result = wx.arrayBufferToBase64(arrayBuffer);
+        console.log("result",result)
     },
 
     /**

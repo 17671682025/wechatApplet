@@ -12,7 +12,9 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        let base64 = 'TU1NQQ==';
+        let result = wx.base64ToArrayBuffer(base64);
+        console.log("result",result)
     },
 
     /**

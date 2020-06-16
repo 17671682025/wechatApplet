@@ -1,2 +1,6 @@
-<!--pages/interface/basic/env/index.wxml-->
-<text>pages/interface/basic/env/index.wxml</text>
+<pageContainer headerTitle="env">
+	<view>
+	
+	</view>
+</pageContainer>
+

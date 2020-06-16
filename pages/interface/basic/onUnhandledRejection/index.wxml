@@ -1,2 +1,5 @@
-<!--pages/interface/basic/onUnhandledRejection/index.wxml-->
-<text>pages/interface/basic/onUnhandledRejection/index.wxml</text>
+<pageContainer headerTitle="wx.onUnhandledRejection(function callback)">
+	<view>
+	
+	</view>
+</pageContainer>

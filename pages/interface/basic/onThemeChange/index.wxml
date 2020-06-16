@@ -1,2 +1,5 @@
-<!--pages/interface/basic/onThemeChange/index.wxml-->
-<text>pages/interface/basic/onThemeChange/index.wxml</text>
+<pageContainer headerTitle="wx.onThemeChange(function callback)">
+	<view>
+	
+	</view>
+</pageContainer>

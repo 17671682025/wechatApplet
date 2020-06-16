@@ -1,4 +1,4 @@
-// pages/interface/basic/getSystemInfoSync/index.js
+// pages/interface/basic/onAppShow/index.js
 Page({
 
     /**
@@ -12,8 +12,7 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-        const systemInfo = wx.getSystemInfoSync();
-        console.log("systemInfo",systemInfo)
+
     },
 
     /**

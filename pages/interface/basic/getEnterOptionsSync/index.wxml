@@ -1,2 +1,5 @@
-<!--pages/interface/basic/getEnterOptionsSync/index.wxml-->
-<text>pages/interface/basic/getEnterOptionsSync/index.wxml</text>
+<pageContainer headerTitle="wx.getEnterOptionsSync()">
+	<view>
+	
+	</view>
+</pageContainer>

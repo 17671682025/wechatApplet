@@ -1,2 +1,5 @@
-<!--pages/interface/basic/offError/index.wxml-->
-<text>pages/interface/basic/offError/index.wxml</text>
+<pageContainer headerTitle="wx.offError(function callback)">
+	<view>
+	
+	</view>
+</pageContainer>

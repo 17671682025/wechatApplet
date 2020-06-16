@@ -1,2 +1,5 @@
-<!--pages/interface/basic/offAppHide/index.wxml-->
-<text>pages/interface/basic/offAppHide/index.wxml</text>
+<pageContainer headerTitle="wx.offAppHide(function callback)">
+	<view>
+	
+	</view>
+</pageContainer>

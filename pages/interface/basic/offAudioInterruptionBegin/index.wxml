@@ -1,2 +1,5 @@
-<!--pages/interface/basic/offAudioInterruptionBegin/index.wxml-->
-<text>pages/interface/basic/offAudioInterruptionBegin/index.wxml</text>
+<pageContainer headerTitle="wx.offAudioInterruptionBegin(function callback)">
+	<view>
+	
+	</view>
+</pageContainer>

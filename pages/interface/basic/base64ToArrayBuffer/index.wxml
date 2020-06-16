@@ -1,2 +1,5 @@
-<!--pages/interface/basic/base64ToArrayBuffer/index.wxml-->
-<text>pages/interface/basic/base64ToArrayBuffer/index.wxml</text>
+<pageContainer headerTitle="wx.base64ToArrayBuffer(string base64)">
+	<view>
+	
+	</view>
+</pageContainer>
