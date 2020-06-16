@@ -1,0 +1,5 @@
+
+.descStyle{
+  font-size: 28rpx;
+  color: rgb(34, 34, 34);
+}

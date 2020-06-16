@@ -1,6 +1,6 @@
 
 <pageContainer headerTitle="wx.canIUse">
   <view>
-    
+    <desc text="含义：判断小程序的api、回调、参数、组件等在当前版本是否有效"></desc>
   </view>
 </pageContainer>
