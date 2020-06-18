@@ -1,6 +1,5 @@
 <pageContainer headerTitle="wx.getSystemInfoSync()">
 	<view>
-	
+		<desc text="{{brand}}"></desc>
 	</view>
 </pageContainer>
-

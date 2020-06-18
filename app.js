@@ -1,48 +1,53 @@
 import 'umtrack-wx';
 App({
-  onLaunch: function () {
-    // 展示本地存储能力
-    var logs = wx.getStorageSync('logs') || []
-    logs.unshift(Date.now())
-    wx.setStorageSync('logs', logs)
+	onLaunch: function (options) {
+		console.log('onLaunch-options', options);
 
-    // 登录
-    wx.login({
-      success: res => {
-        // 发送 res.code 到后台换取 openId, sessionKey, unionId
-        console.log('login-res', res);
-      }
-    })
-    // 获取用户信息
-    wx.getSetting({
-      success: res => {
-        if (res.authSetting['scope.userInfo']) {
-          // 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框
-          wx.getUserInfo({
-            success: res => {
-              // 可以将 res 发送给后台解码出 unionId
-              this.globalData.userInfo = res.userInfo
+		// 展示本地存储能力
+		var logs = wx.getStorageSync('logs') || [];
+		logs.unshift(Date.now());
+		wx.setStorageSync('logs', logs);
 
-              // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
-              // 所以此处加入 callback 以防止这种情况
-              if (this.userInfoReadyCallback) {
-                this.userInfoReadyCallback(res)
-              }
-            }
-          })
-        }
-      }
-    })
+		// 登录
+		wx.login({
+			success: (res) => {
+				// 发送 res.code 到后台换取 openId, sessionKey, unionId
+				console.log('login-res', res);
+			},
+		});
+		// 获取用户信息
+		wx.getSetting({
+			success: (res) => {
+				if (res.authSetting['scope.userInfo']) {
+					// 已经授权，可以直接调用 getUserInfo 获取头像昵称，不会弹框
+					wx.getUserInfo({
+						success: (res) => {
+							// 可以将 res 发送给后台解码出 unionId
+							this.globalData.userInfo = res.userInfo;
+
+							// 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
+							// 所以此处加入 callback 以防止这种情况
+							if (this.userInfoReadyCallback) {
+								this.userInfoReadyCallback(res);
+							}
+						},
+					});
+				}
+			},
+		});
+	},
+	onShow: function (options) {
+    console.log('onShow-options', options);
   },
-  globalData: {
-    userInfo: null
-  },
-  umengConfig: {
-    appKey: '5eb98c23978eea078b7e9fda', //由友盟分配的APP_KEY
-    // 是否使用openid进行统计，此项为false时将使用友盟+随机ID进行用户统计。
-    // 使用openid来统计微信小程序的用户，会使统计的指标更为准确，对系统准确性要求高的应用推荐使用OpenID。
-    useOpenid: false,
-    autoGetOpenid: true, // 是否需要通过友盟后台获取openid，如若需要，请到友盟后台设置appId及secret
-    debug: true, //是否打开调试模式
-  }
-})
+	globalData: {
+		userInfo: null,
+	},
+	umengConfig: {
+		appKey: '5eb98c23978eea078b7e9fda', //由友盟分配的APP_KEY
+		// 是否使用openid进行统计，此项为false时将使用友盟+随机ID进行用户统计。
+		// 使用openid来统计微信小程序的用户，会使统计的指标更为准确，对系统准确性要求高的应用推荐使用OpenID。
+		useOpenid: false,
+		autoGetOpenid: true, // 是否需要通过友盟后台获取openid，如若需要，请到友盟后台设置appId及secret
+		debug: true, //是否打开调试模式
+	},
+});
