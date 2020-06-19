@@ -1,2 +1,5 @@
-<!--pages/interface/router/navigateBack/index.wxml-->
-<text>pages/interface/router/navigateBack/index.wxml</text>
+<pageContainer headerTitle="wx.arrayBufferToBase64(ArrayBuffer arrayBuffer)">
+	<view>
+		<fullButton bind:onPress="onNavigateBack" text="navigateBack事件"></fullButton>
+	</view>
+</pageContainer>

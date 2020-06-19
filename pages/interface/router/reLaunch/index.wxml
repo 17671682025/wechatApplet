@@ -1,2 +1,5 @@
-<!--pages/interface/router/reLaunch/index.wxml-->
-<text>pages/interface/router/reLaunch/index.wxml</text>
+<pageContainer headerTitle="wx.arrayBufferToBase64(ArrayBuffer arrayBuffer)">
+	<view>
+		<fullButton bind:onPress="onRelaunch" text="relaunch事件"></fullButton>
+	</view>
+</pageContainer>

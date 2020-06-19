@@ -1,4 +1,5 @@
 // pages/component/media/audio/index.js
+var eventChannel;
 Page({
 	/**
 	 * 页面的初始数据
@@ -21,57 +22,66 @@ Page({
 	/**
 	 * 生命周期函数--监听页面加载
 	 */
-	onLoad: function (options) {},
+	onLoad: function (options) {
+		eventChannel = this.getOpenerEventChannel();
+		console.log('eventChannel', eventChannel);
+		eventChannel.on('audio', function (data) {
+			console.log('接受来自navigate页面的数据', data);
+		});
+	},
 
 	/**
 	 * 生命周期函数--监听页面初次渲染完成
 	 */
 	onReady: function () {
 		// 使用 wx.createAudioContext 获取 audio 上下文 context
-        this.audioCtx = wx.createAudioContext('exampleAudio');
-        this.onSongLong()
+		this.audioCtx = wx.createAudioContext('exampleAudio');
+		this.onSongLong()
 	},
 
 	/**
 	 * 生命周期函数--监听页面显示
 	 */
-	onShow: function () {},
+	onShow: function () { },
 
 	/**
 	 * 生命周期函数--监听页面隐藏
 	 */
-	onHide: function () {},
+	onHide: function () { },
 
 	/**
 	 * 生命周期函数--监听页面卸载
 	 */
-	onUnload: function () {},
+	onUnload: function () { },
 
 	/**
 	 * 页面相关事件处理函数--监听用户下拉动作
 	 */
-	onPullDownRefresh: function () {},
+	onPullDownRefresh: function () { },
 
 	/**
 	 * 页面上拉触底事件的处理函数
 	 */
-	onReachBottom: function () {},
+	onReachBottom: function () { },
 
 	/**
 	 * 用户点击右上角分享
 	 */
-	onShareAppMessage: function () {},
+	onShareAppMessage: function () { },
 	/**
 	 * 播放事件
 	 */
 	onPlay: function () {
 		this.audioCtx.play();
+		console.log('eventChannel', eventChannel);
+		eventChannel.emit("sendMsgFromAudio", { data: "audio数据" })
 	},
 	/**
 	 * 暂停事件
 	 */
 	onPause: function () {
 		this.audioCtx.pause();
+		wx.navigateBack({delta:2})
 	},
 	/**
 	 * 停止事件
@@ -84,5 +94,6 @@ Page({
 	 */
 	onSeek: function () {
 		this.audioCtx.seek(60);
+
 	},
 });
