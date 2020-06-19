@@ -1,2 +1,5 @@
-<!--pages/interface/device/setKeepScreenOn/index.wxml-->
-<text>pages/interface/device/setKeepScreenOn/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

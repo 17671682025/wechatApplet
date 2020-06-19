@@ -1,4 +1,4 @@
-<pageContainer headerTitle="wx.arrayBufferToBase64(ArrayBuffer arrayBuffer)">
+<pageContainer headerTitle="wx.navigateTo(Object object)">
 	<view>
 		<fullButton bind:onPress="onNavigateTo" text="navigateTo事件"></fullButton>
 	</view>

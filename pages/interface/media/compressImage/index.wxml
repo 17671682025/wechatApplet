@@ -1,2 +1,5 @@
-<!--pages/interface/media/compressImage/index.wxml-->
-<text>pages/interface/media/compressImage/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

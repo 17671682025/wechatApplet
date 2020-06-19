@@ -1,2 +1,5 @@
-<!--pages/interface/openInterface/startSoterAuthentication/index.wxml-->
-<text>pages/interface/openInterface/startSoterAuthentication/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

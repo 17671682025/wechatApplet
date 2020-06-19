@@ -1,2 +1,5 @@
-<!--pages/interface/page/setNavigationBarTitle/index.wxml-->
-<text>pages/interface/page/setNavigationBarTitle/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

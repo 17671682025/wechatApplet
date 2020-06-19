@@ -1,2 +1,5 @@
-<!--pages/interface/file/getSaveFileInfo/index.wxml-->
-<text>pages/interface/file/getSaveFileInfo/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

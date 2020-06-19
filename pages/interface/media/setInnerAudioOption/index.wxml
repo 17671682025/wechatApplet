@@ -1,2 +1,5 @@
-<!--pages/interface/media/setInnerAudioOption/index.wxml-->
-<text>pages/interface/media/setInnerAudioOption/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

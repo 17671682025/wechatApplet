@@ -1,2 +1,5 @@
-<!--pages/interface/device/onBLEConnectionStateChange/index.wxml-->
-<text>pages/interface/device/onBLEConnectionStateChange/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

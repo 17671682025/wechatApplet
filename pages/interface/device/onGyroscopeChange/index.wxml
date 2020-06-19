@@ -1,2 +1,5 @@
-<!--pages/interface/device/onGyroscopeChange/index.wxml-->
-<text>pages/interface/device/onGyroscopeChange/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

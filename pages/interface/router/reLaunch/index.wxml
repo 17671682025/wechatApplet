@@ -1,4 +1,4 @@
-<pageContainer headerTitle="wx.arrayBufferToBase64(ArrayBuffer arrayBuffer)">
+<pageContainer headerTitle="wx.reLaunch(Object object)">
 	<view>
 		<fullButton bind:onPress="onRelaunch" text="relaunch事件"></fullButton>
 	</view>

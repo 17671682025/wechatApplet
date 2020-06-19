@@ -1,2 +1,5 @@
-<!--pages/interface/device/onCompassChange/index.wxml-->
-<text>pages/interface/device/onCompassChange/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

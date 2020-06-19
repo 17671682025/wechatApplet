@@ -1,2 +1,5 @@
-<!--pages/interface/openInterface/requestSubscribeMessage/index.wxml-->
-<text>pages/interface/openInterface/requestSubscribeMessage/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

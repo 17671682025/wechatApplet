@@ -1,2 +1,5 @@
-<!--pages/interface/device/stopWifi/index.wxml-->
-<text>pages/interface/device/stopWifi/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

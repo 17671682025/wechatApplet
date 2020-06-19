@@ -1,4 +1,4 @@
-<pageContainer headerTitle="wx.arrayBufferToBase64(ArrayBuffer arrayBuffer)">
+<pageContainer headerTitle="wx.switchTab(Object object)">
 	<view>
 		<fullButton bind:onPress="onSwitchTab" text="跳转事件"></fullButton>
 	</view>

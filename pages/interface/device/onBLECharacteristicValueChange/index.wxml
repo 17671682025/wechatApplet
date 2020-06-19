@@ -1,2 +1,5 @@
-<!--pages/interface/device/onBLECharacteristicValueChange/index.wxml-->
-<text>pages/interface/device/onBLECharacteristicValueChange/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

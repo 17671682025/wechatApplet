@@ -1,2 +1,5 @@
-<!--pages/interface/position/stopLocationUpdate/index.wxml-->
-<text>pages/interface/position/stopLocationUpdate/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

@@ -1,2 +1,5 @@
-<!--pages/interface/media/chooseMessageFile/index.wxml-->
-<text>pages/interface/media/chooseMessageFile/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

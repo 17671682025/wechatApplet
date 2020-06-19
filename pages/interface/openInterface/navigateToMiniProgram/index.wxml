@@ -1,2 +1,5 @@
-<!--pages/interface/openInterface/navigateToMiniProgram/index.wxml-->
-<text>pages/interface/openInterface/navigateToMiniProgram/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

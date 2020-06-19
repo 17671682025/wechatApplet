@@ -1,2 +1,5 @@
-<!--pages/interface/router/redirectTo/index.wxml-->
-<text>pages/interface/router/redirectTo/index.wxml</text>
+<pageContainer headerTitle="wx.redirectTo(Object object)">
+	<view>
+		<fullButton bind:onPress="onNavigateTo" text="navigateTo事件"></fullButton>
+	</view>
+</pageContainer>

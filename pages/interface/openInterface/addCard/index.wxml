@@ -1,2 +1,5 @@
-<!--pages/interface/openInterface/addCard/index.wxml-->
-<text>pages/interface/openInterface/addCard/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>

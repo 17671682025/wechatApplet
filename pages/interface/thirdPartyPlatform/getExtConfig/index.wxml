@@ -1,2 +1,5 @@
-<!--pages/interface/thirdPartyPlatform/getExtConfig/index.wxml-->
-<text>pages/interface/thirdPartyPlatform/getExtConfig/index.wxml</text>
+<pageContainer headerTitle="wx.showToast(Object object)">
+	<view>
+		
+	</view>
+</pageContainer>
