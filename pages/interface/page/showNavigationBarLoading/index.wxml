@@ -1,5 +1,6 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.showNavigationBarLoading(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="showNavigationBarLoading" text="showNavigationBarLoading"></fullButton>
+		<fullButton bind:onPress="hideNavigationBarLoading" text="hideNavigationBarLoading"></fullButton>
 	</view>
 </pageContainer>

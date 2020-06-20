@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.setNavigationBarTitle(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="setNavigationBarTitle" text="setNavigationBarTitle"></fullButton>
 	</view>
 </pageContainer>

@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.showActionSheet(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="showActionSheet" text="showActionSheet"></fullButton>
 	</view>
 </pageContainer>
