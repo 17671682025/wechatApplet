@@ -1,5 +1,13 @@
 <pageContainer headerTitle="wx.showToast(Object object)">
 	<view>
-		
+		<view class="animation">
+			<view class="dis-flex">
+				<view class="flex3" animation="{{ lAnimate }}">{{ start }}</view>
+				<view class="flex1" bindtap="trigger">
+					<image src="./change.png" class="flexImg" animation="{{ imgAnimation }}"></image>
+				</view>
+				<view class="flex3" animation="{{ rAnimate }}">{{ end }}</view>
+			</view>
+		</view>
 	</view>
 </pageContainer>

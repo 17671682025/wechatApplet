@@ -38,6 +38,11 @@ Page({
 			canvasSource: MockData.officialComponent.officialComponentObj.canvas,
 			openAbilitySource: MockData.officialComponent.officialComponentObj.openAbility,
 		});
+		let menuButtonBoundingClientRect = wx.getMenuButtonBoundingClientRect();
+		console.log('menuButtonBoundingClientRect', menuButtonBoundingClientRect);
+		wx.onWindowResize((size) => {
+			console.log('size', size);
+		});
 	},
 
 	/**

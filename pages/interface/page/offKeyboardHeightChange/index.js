@@ -1,4 +1,4 @@
-// pages/interface/page/setTabBarItem/index.js
+// pages/interface/page/onKeyboardHeightChange/index.js
 Page({
 	/**
 	 * 页面的初始数据
@@ -9,7 +9,12 @@ Page({
 	 * 生命周期函数--监听页面加载
 	 */
 	onLoad: function (options) {
-		this.setTabBarItem({});
+		wx.onKeyboardHeightChange((res) => {
+			console.log('res', res);
+		});
+		wx.offKeyboardHeightChange(() => {
+			console.log('取消事件监听');
+		});
 	},
 
 	/**
@@ -46,25 +51,4 @@ Page({
 	 * 用户点击右上角分享
 	 */
 	onShareAppMessage: function () {},
-	/**
-	 * 设置tabBarItem
-	 */
-	setTabBarItem: () => {
-        // 只能在tabBar页面调用才行
-		wx.setTabBarItem({
-			index: 3,
-			text: '等死',
-			iconPath: '/base/images/icon_component_gray.jpg',
-			selectIconPath: '/base/images/icon_component_green.jpg',
-			success: (res) => {
-				console.log('调用成功', res);
-			},
-			fail: (error) => {
-				console.log('调用失败', error);
-			},
-			complete: (res) => {
-				console.log('调用完成', res);
-			},
-		});
-	},
 });

@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.showTabBar(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="showTabBar" text="showTabBar"></fullButton>
 	</view>
 </pageContainer>

@@ -1,4 +1,4 @@
-// pages/interface/page/stopPullDownRefresh/index.js
+// pages/interface/page/onKeyboardHeightChange/index.js
 Page({
 
     /**
@@ -12,7 +12,9 @@ Page({
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        wx.onKeyboardHeightChange((res)=>{
+            console.log("res",res)
+        })
     },
 
     /**
@@ -47,19 +49,7 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh: function () {
-        setTimeout(()=>{
-            wx.stopPullDownRefresh({
-				success: (res) => {
-					console.log('调用成功', res);
-				},
-				fail: (error) => {
-					console.log('调用失败', error);
-				},
-				complete: (res) => {
-					console.log('调用完成', res);
-				},
-			});
-        },1000)
+
     },
 
     /**

@@ -1,5 +1,28 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.pageScrollTo(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="pageScrollTo" text="pageScrollTo"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
+		<fullButton text="占位"></fullButton>
 	</view>
 </pageContainer>

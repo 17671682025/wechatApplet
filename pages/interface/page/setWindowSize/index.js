@@ -1,4 +1,4 @@
-// pages/interface/page/stopPullDownRefresh/index.js
+// pages/interface/page/setWindowSize/index.js
 Page({
 
     /**
@@ -47,19 +47,7 @@ Page({
      * 页面相关事件处理函数--监听用户下拉动作
      */
     onPullDownRefresh: function () {
-        setTimeout(()=>{
-            wx.stopPullDownRefresh({
-				success: (res) => {
-					console.log('调用成功', res);
-				},
-				fail: (error) => {
-					console.log('调用失败', error);
-				},
-				complete: (res) => {
-					console.log('调用完成', res);
-				},
-			});
-        },1000)
+
     },
 
     /**

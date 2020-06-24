@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.setTopBarText(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="setTopBarText" text="setTopBarText"></fullButton>
 	</view>
 </pageContainer>

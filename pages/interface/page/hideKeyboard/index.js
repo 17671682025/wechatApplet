@@ -1,4 +1,4 @@
-// pages/interface/page/setTabBarItem/index.js
+// pages/interface/page/hideKeyboard/index.js
 Page({
 	/**
 	 * 页面的初始数据
@@ -8,9 +8,7 @@ Page({
 	/**
 	 * 生命周期函数--监听页面加载
 	 */
-	onLoad: function (options) {
-		this.setTabBarItem({});
-	},
+	onLoad: function (options) {},
 
 	/**
 	 * 生命周期函数--监听页面初次渲染完成
@@ -47,24 +45,13 @@ Page({
 	 */
 	onShareAppMessage: function () {},
 	/**
-	 * 设置tabBarItem
+	 * 输入框输入事件
 	 */
-	setTabBarItem: () => {
-        // 只能在tabBar页面调用才行
-		wx.setTabBarItem({
-			index: 3,
-			text: '等死',
-			iconPath: '/base/images/icon_component_gray.jpg',
-			selectIconPath: '/base/images/icon_component_green.jpg',
-			success: (res) => {
-				console.log('调用成功', res);
-			},
-			fail: (error) => {
-				console.log('调用失败', error);
-			},
-			complete: (res) => {
-				console.log('调用完成', res);
-			},
-		});
-	},
+	onInput:(event)=>{
+        const { value } = event.detail;
+        console.log("value",value)
+        if(value.length==4){
+            wx.hideKeyboard();
+        }
+    }
 });

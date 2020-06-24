@@ -1,0 +1,5 @@
+<pageContainer headerTitle="wx.getSelectedTextRange(Object object)">
+	<view>
+		<input type="text" placeholder="点击输入内容" bindinput="onInput" />
+	</view>
+</pageContainer>

@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.startPullDownRefresh(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="startPullDownRefresh" text="startPullDownRefresh"></fullButton>
 	</view>
 </pageContainer>

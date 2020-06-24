@@ -199,7 +199,7 @@ let interfacePageRouter = [
 		routerName: 'wx.getMenuButtonBoundingClientRect',
 		routerPath: `${interfacePath}page/getMenuButtonBoundingClientRect/index`,
 	},
-	{ routerName: 'wx.serWinDowSize', routerPath: `${interfacePath}page/serWinDowSize/index` },
+	{ routerName: 'wx.setWindowSize', routerPath: `${interfacePath}page/setWindowSize/index` },
 	{ routerName: 'wx.onWindowResize', routerPath: `${interfacePath}page/onWindowResize/index` },
 	{ routerName: 'wx.offWindowResize', routerPath: `${interfacePath}page/offWindowResize/index` },
 	{
@@ -209,6 +209,10 @@ let interfacePageRouter = [
 	{
 		routerName: 'wx.offKeyboardHeightChange',
 		routerPath: `${interfacePath}page/offKeyboardHeightChange/index`,
+	},
+	{
+		routerName: 'wx.hideKeyboard',
+		routerPath: `${interfacePath}page/hideKeyboard/index`,
 	},
 	{
 		routerName: 'wx.getSelectedTextRange',
