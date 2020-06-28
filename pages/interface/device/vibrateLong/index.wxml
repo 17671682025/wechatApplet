@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.vibrateLong(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="vibrateLong" text="vibrateLong"></fullButton>
 	</view>
 </pageContainer>
