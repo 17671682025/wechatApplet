@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.makePhoneCall(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="makePhoneCall" text="makePhoneCall"></fullButton>
 	</view>
 </pageContainer>

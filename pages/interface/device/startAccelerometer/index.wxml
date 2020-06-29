@@ -1,4 +1,4 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.startAccelerometer(Object object)">
 	<view>
 		
 	</view>
