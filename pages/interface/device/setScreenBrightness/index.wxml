@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.setScreenBrightness(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="setScreenBrightness" text="setScreenBrightness"></fullButton>
 	</view>
 </pageContainer>

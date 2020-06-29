@@ -1,5 +1,4 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.setKeepScreenOn(Object object)">
 	<view>
-		
 	</view>
 </pageContainer>
