@@ -1,4 +1,4 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.getNetworkType(Object object)">
 	<view>
 		
 	</view>

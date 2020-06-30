@@ -1,5 +1,6 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.setClipboardData(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="setClipboardData" text="setClipboardData"></fullButton>
+			<fullButton bind:onPress="getClipboardData" text="getClipboardData"></fullButton>
 	</view>
 </pageContainer>
