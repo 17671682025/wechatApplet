@@ -1,5 +1,7 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.startBluetoothDevicesDiscovery(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="openBluetoothAdapter" text="蓝牙初始化"></fullButton>
+		<fullButton bind:onPress="getBluetoothAdapterState" text="获取本机蓝牙状态"></fullButton>
+		<fullButton bind:onPress="startBluetoothDevicesDiscovery" text="搜索蓝牙设备"></fullButton>
 	</view>
 </pageContainer>

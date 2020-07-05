@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.getBatteryInfoSync(Object object)">
 	<view>
-		
+				<fullButton bind:onPress="getBatteryInfoSync" text="getBatteryInfoSync"></fullButton>
 	</view>
 </pageContainer>
