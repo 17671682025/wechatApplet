@@ -1,5 +1,9 @@
 <pageContainer headerTitle="wx.showToast(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="startWifi" text="初始化蓝牙模块"></fullButton>
+				<fullButton bind:onPress="getWifiList" text="获取wifi列表"></fullButton>
+			<fullButton bind:onPress="connectWifi" text="连接wifi"></fullButton>
+			<fullButton bind:onPress="getConnectedWifi" text="获取已连接wifi信息"></fullButton>
+				<fullButton bind:onPress="stopWifi" text="停止wifi"></fullButton>
 	</view>
 </pageContainer>
