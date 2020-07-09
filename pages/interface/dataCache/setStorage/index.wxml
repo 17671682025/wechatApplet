@@ -1,5 +1,14 @@
 <pageContainer headerTitle="wx.showToast(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="setStorageSync" text="设置数据到storage(同步)"></fullButton>
+		<fullButton bind:onPress="setStorage" text="设置数据到storage(异步)"></fullButton>
+		<fullButton bind:onPress="removeStorageSync" text="移除storage的数据(同步)"></fullButton>
+		<fullButton bind:onPress="removeStorage" text="移除storage的数据(异步)"></fullButton>
+		<fullButton bind:onPress="getStorageSync" text="获取storage的数据(同步)"></fullButton>
+		<fullButton bind:onPress="getStorage" text="获取storage的数据(异步)"></fullButton>
+		<fullButton bind:onPress="getStorageInfoSync" text="获取全部storage的数据(同步)"></fullButton>
+		<fullButton bind:onPress="getStorageInfo" text="获取全部storage的数据(异步)"></fullButton>
+		<fullButton bind:onPress="clearStorageSync" text="清除全部storage的数据(同步)"></fullButton>
+		<fullButton bind:onPress="clearStorage" text="清除全部storage的数据(异步)"></fullButton>
 	</view>
 </pageContainer>

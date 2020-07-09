@@ -1,5 +1,5 @@
 <pageContainer headerTitle="wx.showToast(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="request" text="发起请求"></fullButton>
 	</view>
 </pageContainer>

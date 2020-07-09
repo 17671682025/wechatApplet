@@ -28,7 +28,7 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.11.2",
 	"appid": "wxae931a5fd4acfae1",
-	"projectname": "wechatApplet",
+	"projectname": "wx-demoDemonstration",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},

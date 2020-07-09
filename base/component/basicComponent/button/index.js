@@ -30,7 +30,7 @@ Component({
 	methods: {
 		// 点击事件
 		buttonPress: function (e) {
-			console.log('event', e);
+			// console.log('event', e);
 			this.triggerEvent('onPress', { event: e, data: '' }, {});
 		},
 	},

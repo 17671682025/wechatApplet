@@ -47,19 +47,19 @@ Page({
 	/**
 	 * showActionSheet
 	 */
-	showActionSheet:()=>{
-        wx.showActionSheet({
-            itemList:['菜单一','菜单二','菜单三'],
-            itemColor:"#19df40",
-            success:(res)=>{
-                console.log('当前点击的', res.tapIndex);
-            },
-            fail:(error)=>{
-                console.log('调用失败', error);
-            },
-            complete:()=>{
-                console.log("调用完成")
-            }
-        })
-    }
+	showActionSheet: () => {
+		wx.showActionSheet({
+			itemList: ['菜单一', '菜单二', '菜单三'],
+			itemColor: '#19df40',
+			success: (res) => {
+				console.log('当前点击的', res.tapIndex);
+			},
+			fail: (error) => {
+				console.log('调用失败', error);
+			},
+			complete: () => {
+				console.log('调用完成');
+			},
+		});
+	},
 });
