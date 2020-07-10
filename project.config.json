@@ -26,7 +26,7 @@
 		}
 	},
 	"compileType": "miniprogram",
-	"libVersion": "2.11.2",
+	"libVersion": "2.12.0",
 	"appid": "wxae931a5fd4acfae1",
 	"projectname": "wx-demoDemonstration",
 	"debugOptions": {

@@ -173,6 +173,8 @@
         "pages/interface/dataCache/getBackgroundFetchData/index",
         "pages/interface/media/createMapContext/index",
         "pages/interface/media/saveImageToPhotoAlbum/index",
+        "pages/interface/media/previewMedia/index",
+        "pages/interface/media/previewImage/index",
         "pages/interface/media/getImageInfo/index",
         "pages/interface/media/compressImage/index",
         "pages/interface/media/chooseMessageFile/index",
@@ -411,9 +413,9 @@
         "desc": "./base/component/basicComponent/desc/index",
         "boldText": "./base/component/basicComponent/boldText/index"
     },
-   "permission": {
-    "scope.userLocation": {
-        "desc": "请确认授权"
+    "permission": {
+        "scope.userLocation": {
+            "desc": "请确认授权"
+        }
     }
-}
 }

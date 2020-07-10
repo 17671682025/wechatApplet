@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.saveImageToPhotosAlbum(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="saveImageToPhotosAlbum" text="保存图片"></fullButton>
 	</view>
 </pageContainer>

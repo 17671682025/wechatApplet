@@ -1,0 +1,6 @@
+<pageContainer headerTitle="wx.previewMedia(Object object)">
+	<view>
+		<fullButton bind:onPress="previewImage" text="预览图片"></fullButton>
+		<fullButton bind:onPress="previewVideo" text="预览视频"></fullButton>
+	</view>
+</pageContainer>

@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.getImageInfo(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="getImageInfo" text="获取图片信息"></fullButton>
 	</view>
 </pageContainer>

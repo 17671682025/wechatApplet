@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.chooseImage(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="chooseImage" text="选择图片"></fullButton>
 	</view>
 </pageContainer>

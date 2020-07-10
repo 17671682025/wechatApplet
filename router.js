@@ -285,6 +285,8 @@ let interfaceDataCacheRouter = [
 let interfaceMediaRouter = [
 	{ routerName: 'wx.createMapContext', routerPath: `${interfacePath}media/createMapContext/index` },
 	{ routerName: 'wx.saveImageToPhotoAlbum', routerPath: `${interfacePath}media/saveImageToPhotoAlbum/index` },
+	{ routerName: 'wx.previewMedia', routerPath: `${interfacePath}media/previewMedia/index` },
+	{ routerName: 'wx.previewImage', routerPath: `${interfacePath}media/previewImage/index` },
 	{ routerName: 'wx.getImageInfo', routerPath: `${interfacePath}media/getImageInfo/index` },
 	{ routerName: 'wx.compressImage', routerPath: `${interfacePath}media/compressImage/index` },
 	{ routerName: 'wx.chooseMessageFile', routerPath: `${interfacePath}media/chooseMessageFile/index` },
