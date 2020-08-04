@@ -1,0 +1,5 @@
+<pageContainer headerTitle="wx.openVideoEditor(Object object)">
+	<view>
+			<fullButton bind:onPress="openVideoEditor" text="打开视频编辑器"></fullButton>
+	</view>
+</pageContainer>

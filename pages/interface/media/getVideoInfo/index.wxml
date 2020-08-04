@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.getVideoInfo(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="getVideoInfo" text="获取视频信息"></fullButton>
 	</view>
 </pageContainer>

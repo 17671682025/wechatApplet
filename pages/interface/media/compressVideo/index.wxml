@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.compressVideo(Object object)">
 	<view>
-		
+		<fullButton bind:onPress="compressVideo" text="压缩视频"></fullButton>
 	</view>
 </pageContainer>

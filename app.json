@@ -180,6 +180,7 @@
         "pages/interface/media/chooseMessageFile/index",
         "pages/interface/media/chooseImage/index",
         "pages/interface/media/saveVideoToPhotoAlbum/index",
+        "pages/interface/media/openVideoEditor/index",
         "pages/interface/media/getVideoInfo/index",
         "pages/interface/media/createVideoContext/index",
         "pages/interface/media/compressVideo/index",
@@ -375,8 +376,7 @@
     "style": "v2",
     "sitemapLocation": "sitemap.json",
     "tabBar": {
-        "list": [
-            {
+        "list": [{
                 "text": "组件",
                 "pagePath": "pages/tabBar/component/component",
                 "iconPath": "base/images/icon_component_gray.png",

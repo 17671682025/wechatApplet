@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
+<pageContainer headerTitle="wx.saveVideoToPhotosAlbum(Object object)">
 	<view>
-		
+			<fullButton bind:onPress="saveVideoToPhotosAlbum" text="保存视频到本机"></fullButton>
 	</view>
 </pageContainer>

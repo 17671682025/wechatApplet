@@ -292,6 +292,7 @@ let interfaceMediaRouter = [
 	{ routerName: 'wx.chooseMessageFile', routerPath: `${interfacePath}media/chooseMessageFile/index` },
 	{ routerName: 'wx.chooseImage', routerPath: `${interfacePath}media/chooseImage/index` },
 	{ routerName: 'wx.saveVideoToPhotoAlbum', routerPath: `${interfacePath}media/saveVideoToPhotoAlbum/index` },
+	{ routerName: 'wx.openVideoEditor', routerPath: `${interfacePath}media/openVideoEditor/index` },
 	{ routerName: 'wx.getVideoInfo', routerPath: `${interfacePath}media/getVideoInfo/index` },
 	{ routerName: 'wx.createVideoContext', routerPath: `${interfacePath}media/createVideoContext/index` },
 	{ routerName: 'wx.compressVideo', routerPath: `${interfacePath}media/compressVideo/index` },
