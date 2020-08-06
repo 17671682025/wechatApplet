@@ -1,5 +1,5 @@
-<pageContainer headerTitle="wx.showToast(Object object)">
-	<view>
-		
+<pageContainer headerTitle="wx.createCanvasContext(Object object)">
+	<view class='content'>
+		<canvas class="starrySky" canvas-id="{{canvasId}}"></canvas>
 	</view>
 </pageContainer>

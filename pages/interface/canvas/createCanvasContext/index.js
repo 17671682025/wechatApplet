@@ -1,18 +1,26 @@
-// pages/interface/canvas/createCanvasContext/index.js
+
 Page({
 
     /**
      * 页面的初始数据
      */
     data: {
-
+        // canvas-id
+        canvasId:"starrySky",
+        // canvas对象
+        ctx:null,
     },
 
     /**
      * 生命周期函数--监听页面加载
      */
     onLoad: function (options) {
-
+        let ctx = wx.createCanvasContext(this.data.canvasId);
+        console.log('ctx',ctx);
+        this.setData({
+            ctx
+        })
+        
     },
 
     /**
