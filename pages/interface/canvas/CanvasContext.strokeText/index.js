@@ -20,7 +20,21 @@ Page({
         this.setData({
             ctx
         })
-        
+        if(ctx){
+            this.drawStrokeText(ctx)
+        }
+    },
+
+    /**
+     * 绘制描边文字
+     * @param {*} params 
+     */
+    drawStrokeText:function(cav) {
+          // cav.setFontSize(20);
+          cav.font = 'italic bold 32px cursive'
+          cav.strokeText('你好呀,我日了够了,我日了够了,我日了够了',20,20);
+          cav.setTextBaseline("bottom")
+          cav.draw();
     },
 
     /**

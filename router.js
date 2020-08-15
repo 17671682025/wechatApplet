@@ -374,6 +374,8 @@ let interfaceCanvasRouter = [
 	{ routerName: 'CanvasContext.fillText', routerPath: `${interfacePath}canvas/CanvasContext.fillText/index` },
 	{ routerName: 'CanvasContext.lineTo', routerPath: `${interfacePath}canvas/CanvasContext.lineTo/index` },
 	{ routerName: 'CanvasContext.measureText', routerPath: `${interfacePath}canvas/CanvasContext.measureText/index` },
+	{ routerName: 'CanvasContext.moveTo', routerPath: `${interfacePath}canvas/CanvasContext.moveTo/index` },
+	{ routerName: 'CanvasContext.quadraticCurveTo', routerPath: `${interfacePath}canvas/CanvasContext.quadraticCurveTo/index` },
 	{ routerName: 'CanvasContext.rect', routerPath: `${interfacePath}canvas/CanvasContext.rect/index` },
 	{ routerName: 'CanvasContext.restore', routerPath: `${interfacePath}canvas/CanvasContext.restore/index` },
 	{ routerName: 'CanvasContext.rotate', routerPath: `${interfacePath}canvas/CanvasContext.rotate/index` },

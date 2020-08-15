@@ -20,7 +20,23 @@ Page({
         this.setData({
             ctx
         })
-        
+        if(ctx){
+            this.drawLineTo(ctx);
+        }
+    },
+    /**
+     * 
+     * @param {*} params 
+     */
+    drawLineTo:function(ctx) {
+        ctx.beginPath();
+        ctx.moveTo(10,10);
+        ctx.lineTo(50,90)
+        ctx.setLineWidth(20);
+        ctx.setStrokeStyle('red');
+        ctx.setGlobalAlpha(0.1);
+        ctx.stroke();
+        ctx.draw();
     },
 
     /**

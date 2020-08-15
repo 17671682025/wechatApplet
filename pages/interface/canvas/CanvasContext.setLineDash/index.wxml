@@ -1,4 +1,4 @@
-<pageContainer headerTitle="CanvasContenxt.(Object object)">
+<pageContainer headerTitle="CanvasContenxt.setLineDash(Object object)">
 	<view class='content'>
 		<canvas class="starrySky" canvas-id="{{canvasId}}"></canvas>
 	</view>

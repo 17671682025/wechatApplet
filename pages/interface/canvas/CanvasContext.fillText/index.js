@@ -20,7 +20,19 @@ Page({
         this.setData({
             ctx
         })
-        
+        if(ctx){
+            this.drawFillText(ctx);
+        }
+    },
+    /**
+     * 在画布上绘制被填充的文本
+     * @param {*} params 
+     */
+    drawFillText:function(cav) {
+        // cav.setFontSize(20);
+        cav.font = 'italic bold 32px cursive'
+        cav.fillText('你好呀,我日了够了,我日了够了,我日了够了',20,20);
+        cav.draw();
     },
 
     /**

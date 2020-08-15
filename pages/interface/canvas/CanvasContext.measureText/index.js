@@ -20,7 +20,20 @@ Page({
         this.setData({
             ctx
         })
+        if(ctx){
+            this.drawMeasureText(ctx)
+        }
         
+    },
+
+    /**
+     * 测量文字宽度
+     * @param {*} cav 
+     */
+    drawMeasureText:function(cav) {
+        cav.font = 'italic bold 20px cursive'
+        const metrics = cav.measureText('Hello World')
+        console.log('文字宽度：',metrics.width)
     },
 
     /**

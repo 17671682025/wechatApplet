@@ -20,7 +20,24 @@ Page({
         this.setData({
             ctx
         })
+        if(ctx){
+            this.drawSetShadow(ctx)
+        }
         
+    },
+
+    /**
+     * 设置阴影
+     * @param {*} cav 
+     */
+    drawSetShadow:function(cav) {
+        cav.beginPath();
+        cav.setFillStyle("orange");
+        cav.setShadow(10,5,10,'red')
+        cav.arc(100,100,50,0,2*Math.PI);
+        cav.fill();
+        // cav.fillRect(50,50,200,200);
+        cav.draw();
     },
 
     /**

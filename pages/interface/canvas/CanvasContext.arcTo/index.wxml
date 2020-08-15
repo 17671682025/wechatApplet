@@ -1,5 +1,5 @@
-<pageContainer headerTitle="CanvasContenxt.(Object object)">
+<pageContainer headerTitle="CanvasContenxt.arcTo(x1,y1,x2,y2,r)">
 	<view class='content'>
-		<canvas class="starrySky" canvas-id="{{canvasId}}"></canvas>
+		<canvas canvas-id="{{canvasId}}" class="starrySky"></canvas>
 	</view>
 </pageContainer>

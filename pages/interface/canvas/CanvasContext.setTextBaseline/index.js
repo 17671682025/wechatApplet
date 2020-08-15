@@ -20,7 +20,28 @@ Page({
         this.setData({
             ctx
         })
+        if(ctx){
+            this.drawSetTextBaseline(ctx)
+        }
         
+    },
+
+    /**
+     * 设置文字垂直对齐方式
+     * @param {*} cav 
+     */
+    drawSetTextBaseline:function(cav) {
+        cav.beginPath();
+        cav.setFontSize(20);
+        cav.setTextBaseline("middle");
+        cav.fillText('你好呀',10,50);
+        cav.setTextBaseline("bottom");
+        cav.fillText('你好呀2',50,50);
+        cav.setTextBaseline("top");
+        cav.fillText('你好呀3',150,50);
+        cav.setStrokeStyle("red");
+        cav.strokeRect(10,10,300,150);
+        cav.draw();
     },
 
     /**
